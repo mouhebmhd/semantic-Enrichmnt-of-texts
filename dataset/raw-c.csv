@@ -1,0 +1,673 @@
+word,sentence1,sentence2,same,ambiguity_type,disambiguating_word1,disambiguating_word2,version,Class,mean_relatedness,median_relatedness,diff,count,sd_relatedness,distance_bert,distance_elmo,se_relatedness,v1,v2
+act,It was a desperate act,It was a magic act,FALSE,Polysemy,desperate,magic,M1_a_M2_a,N,2181818182,2,0181818182,11,1328019715,0204110265,0034093499,040041301,M1_a,M2_a
+act,It was a desperate act,It was a comedic act,FALSE,Polysemy,desperate,comedic,M1_a_M2_b,N,2,2,0,7,1290994449,0215615511,0045926571,0487950036,M1_a,M2_b
+act,It was a humane act,It was a magic act,FALSE,Polysemy,humane,magic,M1_b_M2_a,N,2818181818,3,0181818182,11,0981649817,0191488087,0042350948,0295978556,M1_b,M2_a
+act,It was a humane act,It was a comedic act,FALSE,Polysemy,humane,comedic,M1_b_M2_b,N,280952381,3,019047619,21,092838826,0225271583,005770725,0202590927,M1_b,M2_b
+act,It was a desperate act,It was a humane act,TRUE,Polysemy,desperate,humane,M1_a_M1_b,N,39,4,01,10,0316227766,0167989969,0041440308,01,M1_a,M1_b
+act,It was a magic act,It was a comedic act,TRUE,Polysemy,magic,comedic,M2_a_M2_b,N,3764705882,4,0235294118,17,0437237316,0162387192,0035784066,0106045626,M2_a,M2_b
+appeal,He had a universal appeal,He had a legal appeal,FALSE,Polysemy,universal,legal,M1_a_M2_a,N,1571428571,1,0571428571,14,1741541568,0370739162,0108166337,0465446562,M1_a,M2_a
+appeal,He had a universal appeal,He had a pending appeal,FALSE,Polysemy,universal,pending,M1_a_M2_b,N,1,0,1,18,1328422328,0430851221,0150558531,0313112146,M1_a,M2_b
+appeal,He had an undefinable appeal,He had a legal appeal,FALSE,Polysemy,undefinable,legal,M1_b_M2_a,N,1235294118,1,0235294118,17,1200490096,0398581862,013264215,0291161616,M1_b,M2_a
+appeal,He had an undefinable appeal,He had a pending appeal,FALSE,Polysemy,undefinable,pending,M1_b_M2_b,N,0714285714,0,0714285714,7,1253566341,04461236,0182452857,0473803541,M1_b,M2_b
+appeal,He had a universal appeal,He had an undefinable appeal,TRUE,Polysemy,universal,undefinable,M1_a_M1_b,N,37,4,03,10,0483045892,0120313466,0045355678,0152752523,M1_a,M1_b
+appeal,He had a legal appeal,He had a pending appeal,TRUE,Polysemy,legal,pending,M2_a_M2_b,N,3272727273,4,0727272727,11,0904534034,0098901391,0060672343,0272727273,M2_a,M2_b
+atmosphere,It was a tense atmosphere,It was a gaseous atmosphere,FALSE,Polysemy,tense,gaseous,M1_a_M2_a,N,1214285714,1,0214285714,14,1050902281,0352736831,0102721155,0280865449,M1_a,M2_a
+atmosphere,It was a tense atmosphere,It was a polluted atmosphere,FALSE,Polysemy,tense,polluted,M1_a_M2_b,N,1846153846,2,0153846154,13,128102523,0256296635,0068193078,0355292473,M1_a,M2_b
+atmosphere,It was a hostile atmosphere,It was a gaseous atmosphere,FALSE,Polysemy,hostile,gaseous,M1_b_M2_a,N,1538461538,2,0461538462,13,0877058019,0252422631,0092967808,0243252128,M1_b,M2_a
+atmosphere,It was a hostile atmosphere,It was a polluted atmosphere,FALSE,Polysemy,hostile,polluted,M1_b_M2_b,N,2181818182,2,0181818182,11,0873862898,0126936376,0052345157,0263479577,M1_b,M2_b
+atmosphere,It was a tense atmosphere,It was a hostile atmosphere,TRUE,Polysemy,tense,hostile,M1_a_M1_b,N,4,4,0,11,0,0129758179,0037254393,0,M1_a,M1_b
+atmosphere,It was a gaseous atmosphere,It was a polluted atmosphere,TRUE,Polysemy,gaseous,polluted,M2_a_M2_b,N,3466666667,4,0533333333,15,0639940473,0199588358,0037874043,016523192,M2_a,M2_b
+bail,He bailed out the prisoner,He bailed out the water,FALSE,Homonymy,prisoner,water,M1_a_M2_a,V,0894736842,1,0105263158,19,1100239208,0294229746,0079534769,0252412185,M1_a,M2_a
+bail,He bailed out the prisoner,He bailed out the liquid,FALSE,Homonymy,prisoner,liquid,M1_a_M2_b,V,0666666667,1,0333333333,9,0707106781,0287322104,0099640667,023570226,M1_a,M2_b
+bail,He bailed out the defendant,He bailed out the water,FALSE,Homonymy,defendant,water,M1_b_M2_a,V,075,05,025,8,088640526,0443184912,0110985637,0313391585,M1_b,M2_a
+bail,He bailed out the defendant,He bailed out the liquid,FALSE,Homonymy,defendant,liquid,M1_b_M2_b,V,0764705882,1,0235294118,17,0752446989,042926693,0120074809,0182495201,M1_b,M2_b
+bail,He bailed out the prisoner,He bailed out the defendant,TRUE,Homonymy,prisoner,defendant,M1_a_M1_b,V,3083333333,4,0916666667,12,1378954369,0140995204,0084383667,0398069838,M1_a,M1_b
+bail,He bailed out the water,He bailed out the liquid,TRUE,Homonymy,water,liquid,M2_a_M2_b,V,3083333333,35,0416666667,12,1083624669,0126403391,0065280318,0312815497,M2_a,M2_b
+band,It was a gold band,It was a jazz band,FALSE,Homonymy,gold,jazz,M1_a_M2_a,N,02,0,02,10,0421637021,0449524701,0073461235,0133333333,M1_a,M2_a
+band,It was a gold band,It was a country band,FALSE,Homonymy,gold,country,M1_a_M2_b,N,0384615385,0,0384615385,13,0506369684,0455853581,0076260746,0140441681,M1_a,M2_b
+band,It was a rubber band,It was a jazz band,FALSE,Homonymy,rubber,jazz,M1_b_M2_a,N,0333333333,0,0333333333,12,0651338947,0482806385,0080441296,0188025358,M1_b,M2_a
+band,It was a rubber band,It was a country band,FALSE,Homonymy,rubber,country,M1_b_M2_b,N,01,0,01,10,0316227766,0484228253,0089959681,01,M1_b,M2_b
+band,It was a gold band,It was a rubber band,TRUE,Homonymy,gold,rubber,M1_a_M1_b,N,2526315789,3,0473684211,19,1218761715,0250876188,0045372784,0279603113,M1_a,M1_b
+band,It was a jazz band,It was a country band,TRUE,Homonymy,jazz,country,M2_a_M2_b,N,4,4,0,13,0,0091263115,0034426391,0,M2_a,M2_b
+bank,He banked the plane,He banked the money,FALSE,Homonymy,plane,money,M1_a_M2_a,V,1,1,0,17,1060660172,0323924422,0132879496,0257247878,M1_a,M2_a
+bank,He banked the plane,He banked the cash,FALSE,Homonymy,plane,cash,M1_a_M2_b,V,0733333333,1,0266666667,15,0703731551,0273554802,0136303425,0181702705,M1_a,M2_b
+bank,He banked the helicopter,He banked the money,FALSE,Homonymy,helicopter,money,M1_b_M2_a,V,06,1,04,10,0516397779,0350970745,0146282852,0163299316,M1_b,M2_a
+bank,He banked the helicopter,He banked the cash,FALSE,Homonymy,helicopter,cash,M1_b_M2_b,V,1375,15,0125,8,1302470181,0298910558,0146447778,0460492749,M1_b,M2_b
+bank,He banked the plane,He banked the helicopter,TRUE,Homonymy,plane,helicopter,M1_a_M1_b,V,3333333333,35,0166666667,12,0778498944,0052691579,0030866385,0224733287,M1_a,M1_b
+bank,He banked the money,He banked the cash,TRUE,Homonymy,money,cash,M2_a_M2_b,V,3533333333,4,0466666667,15,0833809388,0071297884,0015070319,0215288658,M2_a,M2_b
+barrier,There was a police barrier,There was a language barrier,FALSE,Polysemy,police,language,M1_a_M2_a,N,1333333333,1,0333333333,12,1154700538,0270082295,0092094541,0333333333,M1_a,M2_a
+barrier,There was a police barrier,There was a religious barrier,FALSE,Polysemy,police,religious,M1_a_M2_b,N,1266666667,2,0733333333,15,1032795559,0224227011,0076318026,0266666667,M1_a,M2_b
+barrier,There was a concrete barrier,There was a language barrier,FALSE,Polysemy,concrete,language,M1_b_M2_a,N,1692307692,2,0307692308,13,1250640861,0247155786,007921809,0346865366,M1_b,M2_a
+barrier,There was a concrete barrier,There was a religious barrier,FALSE,Polysemy,concrete,religious,M1_b_M2_b,N,1727272727,2,0272727273,11,1348399725,0197422087,0060512066,0406557814,M1_b,M2_b
+barrier,There was a police barrier,There was a concrete barrier,TRUE,Polysemy,police,concrete,M1_a_M1_b,N,2923076923,3,0076923077,13,1320450584,011560303,0063831151,0366227099,M1_a,M1_b
+barrier,There was a language barrier,There was a religious barrier,TRUE,Polysemy,language,religious,M2_a_M2_b,N,3538461538,4,0461538462,13,0776250026,0136045516,0056087494,0215293021,M2_a,M2_b
+bat,He saw a furry bat,He saw a wooden bat,FALSE,Homonymy,furry,wooden,M1_a_M2_a,N,0,0,0,10,0,0141213,0037469864,0,M1_a,M2_a
+bat,He saw a furry bat,He saw a baseball bat,FALSE,Homonymy,furry,baseball,M1_a_M2_b,N,05,0,05,14,0854850414,0220161021,0048564672,0228468383,M1_a,M2_b
+bat,He saw a fruit bat,He saw a wooden bat,FALSE,Homonymy,fruit,wooden,M1_b_M2_a,N,02,0,02,10,0632455532,0199045181,0049907684,02,M1_b,M2_a
+bat,He saw a fruit bat,He saw a baseball bat,FALSE,Homonymy,fruit,baseball,M1_b_M2_b,N,0083333333,0,0083333333,12,0288675135,0269888878,0064392745,0083333333,M1_b,M2_b
+bat,He saw a furry bat,He saw a fruit bat,TRUE,Homonymy,furry,fruit,M1_a_M1_b,N,355,4,045,20,0998683344,0117426872,0030932486,0223312384,M1_a,M1_b
+bat,He saw a wooden bat,He saw a baseball bat,TRUE,Homonymy,wooden,baseball,M2_a_M2_b,N,3545454545,4,0454545455,11,1213559752,0098202467,0045940161,0365902033,M2_a,M2_b
+beam,He saw the laser beam,He saw the wood beam,FALSE,Polysemy,laser,wood,M1_a_M2_a,N,1142857143,1,0142857143,14,0949262293,0312720001,0051152468,0253701019,M1_a,M2_a
+beam,He saw the laser beam,He saw the balance beam,FALSE,Polysemy,laser,balance,M1_a_M2_b,N,0833333333,1,0166666667,12,0937436867,0334815323,0102861106,0270614714,M1_a,M2_b
+beam,He saw the bright beam,He saw the wood beam,FALSE,Polysemy,bright,wood,M1_b_M2_a,N,0555555556,0,0555555556,9,1333333333,0237403274,0073608041,0444444444,M1_b,M2_a
+beam,He saw the bright beam,He saw the balance beam,FALSE,Polysemy,bright,balance,M1_b_M2_b,N,0363636364,0,0363636364,11,0674199862,0323186874,0126451135,0203278907,M1_b,M2_b
+beam,He saw the laser beam,He saw the bright beam,TRUE,Polysemy,laser,bright,M1_a_M1_b,N,3545454545,4,0454545455,11,0687551651,014106673,0063059807,0207304623,M1_a,M1_b
+beam,He saw the wood beam,He saw the balance beam,TRUE,Polysemy,wood,balance,M2_a_M2_b,N,26,3,04,20,1187655807,0259652674,0094416857,0265567912,M2_a,M2_b
+block,She had a toy block,She had a mental block,FALSE,Polysemy,toy,mental,M1_a_M2_a,N,0538461538,0,0538461538,13,0967417922,0344962478,0126269341,0268313456,M1_a,M2_a
+block,She had a toy block,She had a writer's block,FALSE,Polysemy,toy,writer,M1_a_M2_b,N,0133333333,0,0133333333,15,0516397779,074992314,0089277864,0133333333,M1_a,M2_b
+block,She had a wooden block,She had a mental block,FALSE,Polysemy,wooden,mental,M1_b_M2_a,N,1,1,0,13,1224744871,0424544752,0171375155,033968311,M1_b,M2_a
+block,She had a wooden block,She had a writer's block,FALSE,Polysemy,wooden,writer,M1_b_M2_b,N,02,0,02,10,0421637021,0747714102,0135741949,0133333333,M1_b,M2_b
+block,She had a toy block,She had a wooden block,TRUE,Polysemy,toy,wooden,M1_a_M1_b,N,38,4,02,15,0414039336,0149741769,0077775836,0106904497,M1_a,M1_b
+block,She had a mental block,She had a writer's block,TRUE,Polysemy,mental,writer,M2_a_M2_b,N,3181818182,3,0181818182,11,0981649817,0681398749,0116603911,0295978556,M2_a,M2_b
+blood,He has coagulated blood,He has noble blood,FALSE,Polysemy,coagulated,noble,M1_a_M2_a,N,16,2,04,15,0985610761,0421955585,0150418937,0254483604,M1_a,M2_a
+blood,He has coagulated blood,He has royal blood,FALSE,Polysemy,coagulated,royal,M1_a_M2_b,N,25,25,0,8,09258201,0407098174,0148918033,0327326835,M1_a,M2_b
+blood,He has thin blood,He has noble blood,FALSE,Polysemy,thin,noble,M1_b_M2_a,N,2222222222,2,0222222222,9,16414763,0315900445,0075837672,0547158767,M1_b,M2_a
+blood,He has thin blood,He has royal blood,FALSE,Polysemy,thin,royal,M1_b_M2_b,N,2214285714,2,0214285714,14,1121713759,0343109667,0086559355,0299790612,M1_b,M2_b
+blood,He has coagulated blood,He has thin blood,TRUE,Polysemy,coagulated,thin,M1_a_M1_b,N,3631578947,4,0368421053,19,0955133866,0238283217,0115974247,0219122737,M1_a,M1_b
+blood,He has noble blood,He has royal blood,TRUE,Polysemy,noble,royal,M2_a_M2_b,N,3583333333,4,0416666667,12,0792961461,0078508019,0045944512,0228908257,M2_a,M2_b
+board,It was the ironing board,It was the executive board,FALSE,Polysemy,ironing,executive,M1_a_M2_a,N,0066666667,0,0066666667,15,025819889,0376005471,0122809231,0066666667,M1_a,M2_a
+board,It was the ironing board,It was the school board,FALSE,Polysemy,ironing,school,M1_a_M2_b,N,0416666667,0,0416666667,12,099620492,0306866348,0126246154,0287579589,M1_a,M2_b
+board,It was the wooden board,It was the executive board,FALSE,Polysemy,wooden,executive,M1_b_M2_a,N,025,0,025,12,0452267017,0420134366,010416615,0130558242,M1_b,M2_a
+board,It was the wooden board,It was the school board,FALSE,Polysemy,wooden,school,M1_b_M2_b,N,06,0,06,15,0736788398,0322381914,012045747,0190237946,M1_b,M2_b
+board,It was the ironing board,It was the wooden board,TRUE,Polysemy,ironing,wooden,M1_a_M1_b,N,2625,25,0125,8,1302470181,018104279,0074928045,0460492749,M1_a,M1_b
+board,It was the executive board,It was the school board,TRUE,Polysemy,executive,school,M2_a_M2_b,N,3666666667,4,0333333333,15,06172134,0236396194,0067143738,0159363815,M2_a,M2_b
+book,He had a best selling book,He had a heavy book,FALSE,Polysemy,best selling,heavy,M1_a_M2_a,N,3692307692,4,0307692308,13,1109400392,0570299804,0085380137,0307692308,M1_a,M2_a
+book,He had a best selling book,He had a leather bound book,FALSE,Polysemy,best selling,leather bound,M1_a_M2_b,N,3357142857,4,0642857143,14,1081817762,0269021332,0070268571,0289127959,M1_a,M2_b
+book,He had a popular book,He had a heavy book,FALSE,Polysemy,popular,heavy,M1_b_M2_a,N,4,4,0,11,0,0216969311,0091368973,0,M1_b,M2_a
+book,He had a popular book,He had a leather bound book,FALSE,Polysemy,popular,leather bound,M1_b_M2_b,N,3818181818,4,0181818182,11,0603022689,0615868211,0103061438,0181818182,M1_b,M2_b
+book,He had a best selling book,He had a popular book,TRUE,Polysemy,best selling,popular,M1_a_M1_b,N,4,4,0,12,0,0498813987,004464519,0,M1_a,M1_b
+book,He had a heavy book,He had a leather bound book,TRUE,Polysemy,heavy,leather bound,M2_a_M2_b,N,375,4,025,16,0683130051,0516257912,0095530927,0170782513,M2_a,M2_b
+break,He broke the glass,He broke the law,FALSE,Polysemy,glass,law,M1_a_M2_a,V,1733333333,2,0266666667,15,1032795559,0357050598,0126903534,0266666667,M1_a,M2_a
+break,He broke the glass,He broke the promise,FALSE,Polysemy,glass,promise,M1_a_M2_b,V,2357142857,3,0642857143,14,1008208072,0405449092,0115515828,0269454941,M1_a,M2_b
+break,He broke the dish,He broke the law,FALSE,Polysemy,dish,law,M1_b_M2_a,V,23,25,02,10,133749351,0427916944,0191336215,0422952585,M1_b,M2_a
+break,He broke the dish,He broke the promise,FALSE,Polysemy,dish,promise,M1_b_M2_b,V,23,3,07,10,133749351,0477100194,0155141354,0422952585,M1_b,M2_b
+break,He broke the glass,He broke the dish,TRUE,Polysemy,glass,dish,M1_a_M1_b,V,4,4,0,15,0,0132749021,009671092,0,M1_a,M1_b
+break,He broke the law,He broke the promise,TRUE,Polysemy,law,promise,M2_a_M2_b,V,3692307692,4,0307692308,13,0480384461,033742106,0082362115,0133234678,M2_a,M2_b
+breakfast,They ate a pancake breakfast,They ate a family breakfast,FALSE,Polysemy,pancake,family,M1_a_M2_a,N,3785714286,4,0214285714,14,0578934224,0067232728,0018507063,015472668,M1_a,M2_a
+breakfast,They ate a pancake breakfast,They ate a lonely breakfast,FALSE,Polysemy,pancake,lonely,M1_a_M2_b,N,3941176471,4,0058823529,17,0242535625,0121421158,0046943903,0058823529,M1_a,M2_b
+breakfast,They ate a nutritious breakfast,They ate a family breakfast,FALSE,Polysemy,nutritious,family,M1_b_M2_a,N,3666666667,4,0333333333,12,1154700538,009598124,0047627091,0333333333,M1_b,M2_a
+breakfast,They ate a nutritious breakfast,They ate a lonely breakfast,FALSE,Polysemy,nutritious,lonely,M1_b_M2_b,N,3333333333,4,0666666667,9,1118033989,0055151522,0046446443,0372677996,M1_b,M2_b
+breakfast,They ate a pancake breakfast,They ate a nutritious breakfast,TRUE,Polysemy,pancake,nutritious,M1_a_M1_b,N,4,4,0,5,0,0092728674,0054914415,0,M1_a,M1_b
+breakfast,They ate a family breakfast,They ate a lonely breakfast,TRUE,Polysemy,family,lonely,M2_a_M2_b,N,38,4,02,20,0615587011,0090344608,0033118784,013764944,M2_a,M2_b
+call,They called the landlord,They called the loan,FALSE,Polysemy,landlord,loan,M1_a_M2_a,V,1222222222,1,0222222222,9,0833333333,0267129362,0121238768,0277777778,M1_a,M2_a
+call,They called the landlord,They called the debt,FALSE,Polysemy,landlord,debt,M1_a_M2_b,V,13,1,03,10,1418136492,0379179537,013010782,0448454135,M1_a,M2_b
+call,They called the police,They called the loan,FALSE,Polysemy,police,loan,M1_b_M2_a,V,1357142857,15,0142857143,14,1081817762,0341154635,0263126612,0289127959,M1_b,M2_a
+call,They called the police,They called the debt,FALSE,Polysemy,police,debt,M1_b_M2_b,V,1,1,0,16,1032795559,0464733362,0304124057,025819889,M1_b,M2_b
+call,They called the landlord,They called the police,TRUE,Polysemy,landlord,police,M1_a_M1_b,V,3866666667,4,0133333333,15,0351865775,0191510439,0170996845,0090851353,M1_a,M1_b
+call,They called the loan,They called the debt,TRUE,Polysemy,loan,debt,M2_a_M2_b,V,3076923077,3,0076923077,13,1037749043,0148041427,0068140984,0287819799,M2_a,M2_b
+cape,It was a red cape,It was a rocky cape,FALSE,Homonymy,red,rocky,M1_a_M2_a,N,0090909091,0,0090909091,11,0301511345,0281921923,0080481112,0090909091,M1_a,M2_a
+cape,It was a red cape,It was an island cape,FALSE,Homonymy,red,island,M1_a_M2_b,N,0181818182,0,0181818182,11,0404519917,0380894959,0073402226,0121967344,M1_a,M2_b
+cape,It was a flowing cape,It was a rocky cape,FALSE,Homonymy,flowing,rocky,M1_b_M2_a,N,1,1,0,11,1264911064,0272568762,0072089553,0381385036,M1_b,M2_a
+cape,It was a flowing cape,It was an island cape,FALSE,Homonymy,flowing,island,M1_b_M2_b,N,0428571429,0,0428571429,14,0937614462,0364672005,0081994772,0250588006,M1_b,M2_b
+cape,It was a red cape,It was a flowing cape,TRUE,Homonymy,red,flowing,M1_a_M1_b,N,3266666667,4,0733333333,15,1222799287,0081663668,0065949082,0315725418,M1_a,M1_b
+cape,It was a rocky cape,It was an island cape,TRUE,Homonymy,rocky,island,M2_a_M2_b,N,2866666667,3,0133333333,15,1245945806,0092699349,0054765403,0321701824,M2_a,M2_b
+case,It was a beer case,It was a divorce case,FALSE,Homonymy,beer,divorce,M1_a_M2_a,N,0166666667,0,0166666667,18,0514495755,045721215,0069611669,0121267813,M1_a,M2_a
+case,It was a beer case,It was a criminal case,FALSE,Homonymy,beer,criminal,M1_a_M2_b,N,04,0,04,10,0699205899,0469730914,0093788862,0221108319,M1_a,M2_b
+case,It was a display case,It was a divorce case,FALSE,Homonymy,display,divorce,M1_b_M2_a,N,025,0,025,12,0452267017,049239856,0092166007,0130558242,M1_b,M2_a
+case,It was a display case,It was a criminal case,FALSE,Homonymy,display,criminal,M1_b_M2_b,N,0363636364,0,0363636364,11,0504524979,0471332073,0091340482,0152120005,M1_b,M2_b
+case,It was a beer case,It was a display case,TRUE,Homonymy,beer,display,M1_a_M1_b,N,175,2,025,12,1055289706,0209219635,0053949893,0304635898,M1_a,M1_b
+case,It was a divorce case,It was a criminal case,TRUE,Homonymy,divorce,criminal,M2_a_M2_b,N,3928571429,4,0071428571,14,0267261242,0138578296,0065858305,0071428571,M2_a,M2_b
+cast,She cast a shadow,She cast a spear,FALSE,Polysemy,shadow,spear,M1_a_M2_a,V,0909090909,1,0090909091,11,1221027883,0222672522,0137296617,0368153759,M1_a,M2_a
+cast,She cast a shadow,She cast a stone,FALSE,Polysemy,shadow,stone,M1_a_M2_b,V,1142857143,1,0142857143,14,1231455852,0194877267,014134413,032912042,M1_a,M2_b
+cast,She cast a glow,She cast a spear,FALSE,Polysemy,glow,spear,M1_b_M2_a,V,1461538462,1,0461538462,13,1391365314,0262479603,0146176755,0385895306,M1_b,M2_a
+cast,She cast a glow,She cast a stone,FALSE,Polysemy,glow,stone,M1_b_M2_b,V,0941176471,1,0058823529,17,1028991511,0268744171,0148141026,0249567099,M1_b,M2_b
+cast,She cast a shadow,She cast a glow,TRUE,Polysemy,shadow,glow,M1_a_M1_b,V,3285714286,4,0714285714,7,0951189731,015237397,0058177471,0359515925,M1_a,M1_b
+cast,She cast a spear,She cast a stone,TRUE,Polysemy,spear,stone,M2_a_M2_b,V,32,3,02,15,0941123948,0166104376,0054468334,0242997159,M2_a,M2_b
+cause,It was a worthy cause,It was a main cause,FALSE,Polysemy,worthy,main,M1_a_M2_a,N,2272727273,2,0272727273,11,1103712743,0331558168,0123266876,0332781913,M1_a,M2_a
+cause,It was a worthy cause,It was a primary cause,FALSE,Polysemy,worthy,primary,M1_a_M2_b,N,2352941176,2,0352941176,17,1271867548,0408631563,012228179,0308473191,M1_a,M2_b
+cause,It was a political cause,It was a main cause,FALSE,Polysemy,political,main,M1_b_M2_a,N,25,25,0,12,1087114613,0297854483,0101985812,0313822957,M1_b,M2_a
+cause,It was a political cause,It was a primary cause,FALSE,Polysemy,political,primary,M1_b_M2_b,N,2071428571,2,0071428571,14,1384768001,0401752174,0095640481,0370094816,M1_b,M2_b
+cause,It was a worthy cause,It was a political cause,TRUE,Polysemy,worthy,political,M1_a_M1_b,N,3461538462,4,0538461538,13,0877058019,0155668616,0081602454,0243252128,M1_a,M1_b
+cause,It was a main cause,It was a primary cause,TRUE,Polysemy,main,primary,M2_a_M2_b,N,4,4,0,10,0,0063994706,0017945051,0,M2_a,M2_b
+cell,It was a skin cell,It was a prison cell,FALSE,Polysemy,skin,prison,M1_a_M2_a,N,02,0,02,10,0421637021,0370926499,016009587,0133333333,M1_a,M2_a
+cell,It was a skin cell,It was a jail cell,FALSE,Polysemy,skin,jail,M1_a_M2_b,N,0428571429,0,0428571429,14,0937614462,0376195669,0152398884,0250588006,M1_a,M2_b
+cell,It was a brain cell,It was a prison cell,FALSE,Polysemy,brain,prison,M1_b_M2_a,N,0272727273,0,0272727273,11,0646669791,0429600775,0125241637,0194978278,M1_b,M2_a
+cell,It was a brain cell,It was a jail cell,FALSE,Polysemy,brain,jail,M1_b_M2_b,N,0133333333,0,0133333333,15,0351865775,0417385757,012647438,0090851353,M1_b,M2_b
+cell,It was a skin cell,It was a brain cell,TRUE,Polysemy,skin,brain,M1_a_M1_b,N,3947368421,4,0052631579,19,0229415734,0169089794,0058419585,0052631579,M1_a,M1_b
+cell,It was a prison cell,It was a jail cell,TRUE,Polysemy,prison,jail,M2_a_M2_b,N,4,4,0,8,0,0035871804,0007160008,0,M2_a,M2_b
+charm,She had a devilish charm,She had a gold charm,FALSE,Polysemy,devilish,gold,M1_a_M2_a,N,1,1,0,10,0942809042,0240996659,0110680997,0298142397,M1_a,M2_a
+charm,She had a devilish charm,She had a good luck charm,FALSE,Polysemy,devilish,good luck,M1_a_M2_b,N,0727272727,0,0727272727,11,0904534034,0661765426,0036620796,0272727273,M1_a,M2_b
+charm,She had a natural charm,She had a gold charm,FALSE,Polysemy,natural,gold,M1_b_M2_a,N,0588235294,0,0588235294,17,071228712,0244825065,0154701471,0172755002,M1_b,M2_a
+charm,She had a natural charm,She had a good luck charm,FALSE,Polysemy,natural,good luck,M1_b_M2_b,N,1285714286,1,0285714286,14,138278267,0672413886,0098940611,0369564214,M1_b,M2_b
+charm,She had a devilish charm,She had a natural charm,TRUE,Polysemy,devilish,natural,M1_a_M1_b,N,3846153846,4,0153846154,13,0554700196,0062950611,0057939589,0153846154,M1_a,M1_b
+charm,She had a gold charm,She had a good luck charm,TRUE,Polysemy,gold,good luck,M2_a_M2_b,N,3166666667,35,0333333333,12,1114640858,0616652161,007942915,03217691,M2_a,M2_b
+check,He checked the engine,He checked the alibi,FALSE,Polysemy,engine,alibi,M1_a_M2_a,V,31,35,04,10,1100504935,0196067929,0111678481,0348010217,M1_a,M2_a
+check,He checked the engine,He checked the facts,FALSE,Polysemy,engine,facts,M1_a_M2_b,V,2857142857,3,0142857143,14,1292412345,024142921,0137530684,0345411728,M1_a,M2_b
+check,He checked the oven,He checked the alibi,FALSE,Polysemy,oven,alibi,M1_b_M2_a,V,2684210526,3,0315789474,19,1293257368,0182829201,0125203133,0296693588,M1_b,M2_a
+check,He checked the oven,He checked the facts,FALSE,Polysemy,oven,facts,M1_b_M2_b,V,3142857143,3,0142857143,14,0949262293,0267269194,0137405217,0253701019,M1_b,M2_b
+check,He checked the engine,He checked the oven,TRUE,Polysemy,engine,oven,M1_a_M1_b,V,3666666667,4,0333333333,15,0487950036,0117293715,009573859,0125988158,M1_a,M1_b
+check,He checked the alibi,He checked the facts,TRUE,Polysemy,alibi,facts,M2_a_M2_b,V,36,4,04,5,0894427191,0124973059,0064044297,04,M2_a,M2_b
+chicken,They liked the juicy chicken,They liked the clucking chicken,FALSE,Polysemy,juicy,clucking,M1_a_M2_a,N,3,3,0,20,0858395075,0079601288,0077332795,0191942974,M1_a,M2_a
+chicken,They liked the juicy chicken,They liked the pet chicken,FALSE,Polysemy,juicy,pet,M1_a_M2_b,N,2888888889,3,0111111111,9,1452966315,0157398224,0074458599,0484322105,M1_a,M2_b
+chicken,They liked the roasted chicken,They liked the clucking chicken,FALSE,Polysemy,roasted,clucking,M1_b_M2_a,N,3555555556,4,0444444444,9,0527046277,0150800705,0093166828,0175682092,M1_b,M2_a
+chicken,They liked the roasted chicken,They liked the pet chicken,FALSE,Polysemy,roasted,pet,M1_b_M2_b,N,3571428571,4,0428571429,7,0534522484,0202583611,0074374795,0202030509,M1_b,M2_b
+chicken,They liked the juicy chicken,They liked the roasted chicken,TRUE,Polysemy,juicy,roasted,M1_a_M1_b,N,4,4,0,16,0,0094624102,0029318571,0,M1_a,M1_b
+chicken,They liked the clucking chicken,They liked the pet chicken,TRUE,Polysemy,clucking,pet,M2_a_M2_b,N,35625,4,04375,16,1093541647,013973552,006022501,0273385412,M2_a,M2_b
+class,It was a perceptive class,It was a boring class,FALSE,Polysemy,perceptive,boring,M1_a_M2_a,N,3545454545,4,0454545455,11,0820199532,0092052758,00994699,0247299464,M1_a,M2_a
+class,It was a perceptive class,It was a stimulating class,FALSE,Polysemy,perceptive,stimulating,M1_a_M2_b,N,3583333333,4,0416666667,12,0900336637,0078946948,0072611749,02599048,M1_a,M2_b
+class,It was a misbehaving class,It was a boring class,FALSE,Polysemy,misbehaving,boring,M1_b_M2_a,N,29375,3,00625,16,1062622542,0148044109,0044291019,0265655635,M1_b,M2_a
+class,It was a misbehaving class,It was a stimulating class,FALSE,Polysemy,misbehaving,stimulating,M1_b_M2_b,N,28,3,02,15,1373213125,0133084118,0085173726,0354562104,M1_b,M2_b
+class,It was a perceptive class,It was a misbehaving class,TRUE,Polysemy,perceptive,misbehaving,M1_a_M1_b,N,2545454545,3,0454545455,11,1507556723,0061455071,0095460892,0454545455,M1_a,M1_b
+class,It was a boring class,It was a stimulating class,TRUE,Polysemy,boring,stimulating,M2_a_M2_b,N,3833333333,4,0166666667,12,0577350269,0053896427,0063209891,0166666667,M2_a,M2_b
+clear,He cleared the desk,He cleared the path,FALSE,Polysemy,desk,path,M1_a_M2_a,V,3333333333,4,0666666667,6,1211060142,0282314956,0093875289,0494413232,M1_a,M2_a
+clear,He cleared the desk,He cleared the road,FALSE,Polysemy,desk,road,M1_a_M2_b,V,2833333333,25,0333333333,12,0937436867,0373953938,0106257439,0270614714,M1_a,M2_b
+clear,He cleared the shelf,He cleared the path,FALSE,Polysemy,shelf,path,M1_b_M2_a,V,3466666667,4,0533333333,15,0833809388,0193765879,0118124425,0215288658,M1_b,M2_a
+clear,He cleared the shelf,He cleared the road,FALSE,Polysemy,shelf,road,M1_b_M2_b,V,2909090909,2,0909090909,11,1044465936,0317057014,0125001669,0314918329,M1_b,M2_b
+clear,He cleared the desk,He cleared the shelf,TRUE,Polysemy,desk,shelf,M1_a_M1_b,V,3956521739,4,0043478261,23,0208514414,0131476939,0108689189,0043478261,M1_a,M1_b
+clear,He cleared the path,He cleared the road,TRUE,Polysemy,path,road,M2_a_M2_b,V,39,4,01,10,0316227766,0101772845,0045495272,01,M2_a,M2_b
+clip,It was a film clip,It was a hair clip,FALSE,Homonymy,film,hair,M1_a_M2_a,N,07,0,07,20,1080935268,0351907313,0064445615,0241704474,M1_a,M2_a
+clip,It was a film clip,It was a metal clip,FALSE,Homonymy,film,metal,M1_a_M2_b,N,0555555556,0,0555555556,9,0726483157,0333222985,0097966373,0242161052,M1_a,M2_b
+clip,It was a video clip,It was a hair clip,FALSE,Homonymy,video,hair,M1_b_M2_a,N,04,0,04,15,0632455532,0406234622,0076359332,0163299316,M1_b,M2_a
+clip,It was a video clip,It was a metal clip,FALSE,Homonymy,video,metal,M1_b_M2_b,N,0222222222,0,0222222222,9,0666666667,0380484819,0101653278,0222222222,M1_b,M2_b
+clip,It was a film clip,It was a video clip,TRUE,Homonymy,film,video,M1_a_M1_b,N,4,4,0,10,0,0071674526,0036003411,0,M1_a,M1_b
+clip,It was a hair clip,It was a metal clip,TRUE,Homonymy,hair,metal,M2_a_M2_b,N,2714285714,3,0285714286,14,1204387583,0208770514,0067853034,0321886121,M2_a,M2_b
+clog,The dancer clogged,The pipe clogged,FALSE,Polysemy,dancer,pipe,M1_a_M2_a,V,03,0,03,10,0483045892,0173205554,0096770346,0152752523,M1_a,M2_a
+clog,The dancer clogged,The sink clogged,FALSE,Polysemy,dancer,sink,M1_a_M2_b,V,0142857143,0,0142857143,7,0377964473,0235879421,0081241608,0142857143,M1_a,M2_b
+clog,The choreographer clogged,The pipe clogged,FALSE,Polysemy,choreographer,pipe,M1_b_M2_a,V,0285714286,0,0285714286,14,0468807231,0207357526,0126630962,0125294003,M1_b,M2_a
+clog,The choreographer clogged,The sink clogged,FALSE,Polysemy,choreographer,sink,M1_b_M2_b,V,0461538462,0,0461538462,13,0518874522,0240847111,0111360729,0143909899,M1_b,M2_b
+clog,The dancer clogged,The choreographer clogged,TRUE,Polysemy,dancer,choreographer,M1_a_M1_b,V,3368421053,4,0631578947,19,1164785451,013209796,002587229,0267220109,M1_a,M1_b
+clog,The pipe clogged,The sink clogged,TRUE,Polysemy,pipe,sink,M2_a_M2_b,V,4,4,0,14,0,0138669252,0040646911,0,M2_a,M2_b
+cold,It was an icy cold,It was a chest cold,FALSE,Polysemy,icy,chest,M1_a_M2_a,N,1294117647,1,0294117647,17,1104802351,015583688,0110119402,0267953929,M1_a,M2_a
+cold,It was an icy cold,It was a common cold,FALSE,Polysemy,icy,common,M1_a_M2_b,N,0875,1,0125,8,083452296,0177187324,0100174546,0295048422,M1_a,M2_b
+cold,It was a freezing cold,It was a chest cold,FALSE,Polysemy,freezing,chest,M1_b_M2_a,N,1230769231,1,0230769231,13,0832050294,0184639931,0117933095,0230769231,M1_b,M2_a
+cold,It was a freezing cold,It was a common cold,FALSE,Polysemy,freezing,common,M1_b_M2_b,N,0818181818,0,0818181818,11,1250454463,0152515173,0114774644,0377026206,M1_b,M2_b
+cold,It was an icy cold,It was a freezing cold,TRUE,Polysemy,icy,freezing,M1_a_M1_b,N,3842105263,4,0157894737,19,0374634325,0057332754,0028746963,0085947009,M1_a,M1_b
+cold,It was a chest cold,It was a common cold,TRUE,Polysemy,chest,common,M2_a_M2_b,N,3444444444,4,0555555556,9,1333333333,0175595999,009282434,0444444444,M2_a,M2_b
+column,It was a gossip column,It was a concrete column,FALSE,Polysemy,gossip,concrete,M1_a_M2_a,N,0125,0,0125,8,0353553391,0453143775,0090889096,0125,M1_a,M2_a
+column,It was a gossip column,It was a marble column,FALSE,Polysemy,gossip,marble,M1_a_M2_b,N,0411764706,0,0411764706,17,0618346942,0467917681,012032944,0149971162,M1_a,M2_b
+column,It was a sports column,It was a concrete column,FALSE,Polysemy,sports,concrete,M1_b_M2_a,N,0111111111,0,0111111111,9,0333333333,0427443981,0078556299,0111111111,M1_b,M2_a
+column,It was a sports column,It was a marble column,FALSE,Polysemy,sports,marble,M1_b_M2_b,N,0555555556,0,0555555556,18,0855585264,0444061756,0109047771,0201663381,M1_b,M2_b
+column,It was a gossip column,It was a sports column,TRUE,Polysemy,gossip,sports,M1_a_M1_b,N,3928571429,4,0071428571,14,0267261242,0105692744,0033031523,0071428571,M1_a,M1_b
+column,It was a concrete column,It was a marble column,TRUE,Polysemy,concrete,marble,M2_a_M2_b,N,3727272727,4,0272727273,11,0467099366,0101493776,0033631325,0140835758,M2_a,M2_b
+company,He liked the investment company,He liked the pleasant company,FALSE,Polysemy,investment,pleasant,M1_a_M2_a,N,1,1,0,8,09258201,0488830864,0145881116,0327326835,M1_a,M2_a
+company,He liked the investment company,He liked the polite company,FALSE,Polysemy,investment,polite,M1_a_M2_b,N,0733333333,1,0266666667,15,0798808637,0481504261,0141207337,0206251503,M1_a,M2_b
+company,He liked the pharmaceutical company,He liked the pleasant company,FALSE,Polysemy,pharmaceutical,pleasant,M1_b_M2_a,N,0615384615,0,0615384615,13,1043907845,046819371,0212740541,0289527943,M1_b,M2_a
+company,He liked the pharmaceutical company,He liked the polite company,FALSE,Polysemy,pharmaceutical,polite,M1_b_M2_b,N,03125,0,03125,16,0602079729,0461689591,0205292463,0150519932,M1_b,M2_b
+company,He liked the investment company,He liked the pharmaceutical company,TRUE,Polysemy,investment,pharmaceutical,M1_a_M1_b,N,35,4,05,8,0755928946,0169793963,0102344513,0267261242,M1_a,M1_b
+company,He liked the pleasant company,He liked the polite company,TRUE,Polysemy,pleasant,polite,M2_a_M2_b,N,3764705882,4,0235294118,17,09701425,0057559729,0049681246,0235294118,M2_a,M2_b
+cone,It was a waffle cone,It was an orange cone,FALSE,Polysemy,waffle,orange,M1_a_M2_a,N,1785714286,2,0214285714,14,1311403912,0178199053,0050908267,0350487438,M1_a,M2_a
+cone,It was a waffle cone,It was a traffic cone,FALSE,Polysemy,waffle,traffic,M1_a_M2_b,N,1133333333,0,1133333333,15,135576371,0320831299,0069322228,0350056685,M1_a,M2_b
+cone,It was a sugar cone,It was an orange cone,FALSE,Polysemy,sugar,orange,M1_b_M2_a,N,1466666667,0,1466666667,15,1807392228,0162242949,0041739285,0466666667,M1_b,M2_a
+cone,It was a sugar cone,It was a traffic cone,FALSE,Polysemy,sugar,traffic,M1_b_M2_b,N,1666666667,2,0333333333,9,0707106781,0252052665,0065718114,023570226,M1_b,M2_b
+cone,It was a waffle cone,It was a sugar cone,TRUE,Polysemy,waffle,sugar,M1_a_M1_b,N,4,4,0,7,0,0150759399,0040055096,0,M1_a,M1_b
+cone,It was an orange cone,It was a traffic cone,TRUE,Polysemy,orange,traffic,M2_a_M2_b,N,3647058824,4,0352941176,17,0606339063,0228395164,00677495,0147058824,M2_a,M2_b
+contribution,He made a charitable contribution,He made a scholarly contribution,FALSE,Polysemy,charitable,scholarly,M1_a_M2_a,N,3375,4,0625,8,1060660172,0306300402,0104732633,0375,M1_a,M2_a
+contribution,He made a charitable contribution,He made a well written contribution,FALSE,Polysemy,charitable,well written,M1_a_M2_b,N,19375,2,00625,16,1340087062,0538500786,0067570627,0335021765,M1_a,M2_b
+contribution,He made a voluntary contribution,He made a scholarly contribution,FALSE,Polysemy,voluntary,scholarly,M1_b_M2_a,N,3411764706,4,0588235294,17,0795206226,0311554074,01101017,0192865839,M1_b,M2_a
+contribution,He made a voluntary contribution,He made a well written contribution,FALSE,Polysemy,voluntary,well written,M1_b_M2_b,N,2857142857,3,0142857143,7,0899735411,0539172411,0047388971,034006802,M1_b,M2_b
+contribution,He made a charitable contribution,He made a voluntary contribution,TRUE,Polysemy,charitable,voluntary,M1_a_M1_b,N,3875,4,0125,16,0341565026,0106847584,0039962947,0085391256,M1_a,M1_b
+contribution,He made a scholarly contribution,He made a well written contribution,TRUE,Polysemy,scholarly,well written,M2_a_M2_b,N,3076923077,3,0076923077,13,111516355,0501315743,0059290111,030929072,M2_a,M2_b
+count,That was the noble count,That was the final count,FALSE,Homonymy,noble,final,M1_a_M2_a,N,0142857143,0,0142857143,7,0377964473,0505488276,0101866722,0142857143,M1_a,M2_a
+count,That was the noble count,That was the correct count,FALSE,Homonymy,noble,correct,M1_a_M2_b,N,0375,0,0375,16,0718795288,0410678089,0090347171,0179698822,M1_a,M2_b
+count,That was the vengeful count,That was the final count,FALSE,Homonymy,vengeful,final,M1_b_M2_a,N,075,1,025,12,0866025404,0376726568,0141276062,025,M1_b,M2_a
+count,That was the vengeful count,That was the correct count,FALSE,Homonymy,vengeful,correct,M1_b_M2_b,N,09375,1,00625,16,1123610253,0288782477,0135300875,0280902563,M1_b,M2_b
+count,That was the noble count,That was the vengeful count,TRUE,Homonymy,noble,vengeful,M1_a_M1_b,N,3,35,05,14,1300887271,0235204935,0049302697,0347676748,M1_a,M1_b
+count,That was the final count,That was the correct count,TRUE,Homonymy,final,correct,M2_a_M2_b,N,3416666667,4,0583333333,12,0792961461,0172608733,0063432813,0228908257,M2_a,M2_b
+course,It was an introductory course,It was a charted course,FALSE,Polysemy,introductory,charted,M1_a_M2_a,N,125,05,075,12,1422226168,0352136493,0064659238,041056133,M1_a,M2_a
+course,It was an introductory course,It was a collision course,FALSE,Polysemy,introductory,collision,M1_a_M2_b,N,1375,1,0375,16,1360147051,0476619899,0099086463,0340036763,M1_a,M2_b
+course,It was a pass fail course,It was a charted course,FALSE,Polysemy,pass fail,charted,M1_b_M2_a,N,07,0,07,20,0864504726,0654132903,0061700404,0193309133,M1_b,M2_a
+course,It was a pass fail course,It was a collision course,FALSE,Polysemy,pass fail,collision,M1_b_M2_b,N,1111111111,0,1111111111,9,1536590743,0667362005,0068087399,0512196914,M1_b,M2_b
+course,It was an introductory course,It was a pass fail course,TRUE,Polysemy,introductory,pass fail,M1_a_M1_b,N,3909090909,4,0090909091,11,0301511345,0595319211,0053492665,0090909091,M1_a,M1_b
+course,It was a charted course,It was a collision course,TRUE,Polysemy,charted,collision,M2_a_M2_b,N,2222222222,3,0777777778,9,156347192,028404367,0085401952,0521157307,M2_a,M2_b
+cross,He crossed a road,He crossed an enemy,FALSE,Polysemy,road,enemy,M1_a_M2_a,V,0727272727,0,0727272727,11,1103712743,0328189552,0101659954,0332781913,M1_a,M2_a
+cross,He crossed a road,He crossed a friend,FALSE,Polysemy,road,friend,M1_a_M2_b,V,0375,0,0375,16,05,047225827,0097827077,0125,M1_a,M2_b
+cross,He crossed a room,He crossed an enemy,FALSE,Polysemy,room,enemy,M1_b_M2_a,V,0882352941,0,0882352941,17,1053704948,0324942768,0104293823,0255560988,M1_b,M2_a
+cross,He crossed a room,He crossed a friend,FALSE,Polysemy,room,friend,M1_b_M2_b,V,0642857143,05,0142857143,14,0744946344,0429726541,0088190854,0199095285,M1_b,M2_b
+cross,He crossed a road,He crossed a room,TRUE,Polysemy,road,room,M1_a_M1_b,V,2666666667,3,0333333333,9,1658312395,021152842,008060652,0552770798,M1_a,M1_b
+cross,He crossed an enemy,He crossed a friend,TRUE,Polysemy,enemy,friend,M2_a_M2_b,V,3,4,1,10,1333333333,0156759024,0066878438,0421637021,M2_a,M2_b
+date,It was a dinner date,It was an expiration date,FALSE,Polysemy,dinner,expiration,M1_a_M2_a,N,125,15,025,8,1164964745,0350375831,0095204234,0411877236,M1_a,M2_a
+date,It was a dinner date,It was a historical date,FALSE,Polysemy,dinner,historical,M1_a_M2_b,N,1176470588,1,0176470588,17,1185078801,052690661,0100363076,0287423828,M1_a,M2_b
+date,It was a blind date,It was an expiration date,FALSE,Polysemy,blind,expiration,M1_b_M2_a,N,0230769231,0,0230769231,13,059914469,0402957261,0083028615,0166172838,M1_b,M2_a
+date,It was a blind date,It was a historical date,FALSE,Polysemy,blind,historical,M1_b_M2_b,N,075,05,025,8,088640526,053855145,006692189,0313391585,M1_b,M2_b
+date,It was a dinner date,It was a blind date,TRUE,Polysemy,dinner,blind,M1_a_M1_b,N,3882352941,4,0117647059,17,0332105582,0233226001,0079917014,0080547435,M1_a,M1_b
+date,It was an expiration date,It was a historical date,TRUE,Polysemy,expiration,historical,M2_a_M2_b,N,2928571429,3,0071428571,14,1268814451,0421628237,0076293349,0339104926,M2_a,M2_b
+degree,It was about forty degrees,It was about associate degrees,FALSE,Polysemy,forty,associate,M1_a_M2_a,N,0071428571,0,0071428571,14,0267261242,0530085713,0169271886,0071428571,M1_a,M2_a
+degree,It was about forty degrees,It was about college degrees,FALSE,Polysemy,forty,college,M1_a_M2_b,N,0166666667,0,0166666667,12,0577350269,0548691094,0175453067,0166666667,M1_a,M2_b
+degree,It was about fifty degrees,It was about associate degrees,FALSE,Polysemy,fifty,associate,M1_b_M2_a,N,0076923077,0,0076923077,13,0277350098,0527711362,018201381,0076923077,M1_b,M2_a
+degree,It was about fifty degrees,It was about college degrees,FALSE,Polysemy,fifty,college,M1_b_M2_b,N,0,0,0,10,0,0541428059,0189542115,0,M1_b,M2_b
+degree,It was about forty degrees,It was about fifty degrees,TRUE,Polysemy,forty,fifty,M1_a_M1_b,N,3736842105,4,0263157895,19,0805681579,0012964308,0004413784,0184836031,M1_a,M1_b
+degree,It was about associate degrees,It was about college degrees,TRUE,Polysemy,associate,college,M2_a_M2_b,N,3888888889,4,0111111111,9,0333333333,0107942104,0038037837,0111111111,M2_a,M2_b
+design,They liked the floral design,They liked the product design,FALSE,Polysemy,floral,product,M1_a_M2_a,N,2888888889,3,0111111111,9,078173596,022197926,0097193956,0260578653,M1_a,M2_a
+design,They liked the floral design,They liked the architectural design,FALSE,Polysemy,floral,architectural,M1_a_M2_b,N,375,4,025,16,0577350269,0185480773,0062090397,0144337567,M1_a,M2_b
+design,They liked the geometric design,They liked the product design,FALSE,Polysemy,geometric,product,M1_b_M2_a,N,3454545455,4,0545454545,11,0934198733,0216541827,0090237439,0281671516,M1_b,M2_a
+design,They liked the geometric design,They liked the architectural design,FALSE,Polysemy,geometric,architectural,M1_b_M2_b,N,3538461538,4,0461538462,13,0776250026,0166111648,0048311472,0215293021,M1_b,M2_b
+design,They liked the floral design,They liked the geometric design,TRUE,Polysemy,floral,geometric,M1_a_M1_b,N,39,4,01,20,0307793506,0151654482,0039994121,006882472,M1_a,M1_b
+design,They liked the product design,They liked the architectural design,TRUE,Polysemy,product,architectural,M2_a_M2_b,N,35,4,05,8,09258201,0144426942,0093203187,0327326835,M2_a,M2_b
+dinner,They liked the turkey dinner,They liked the formal dinner,FALSE,Polysemy,turkey,formal,M1_a_M2_a,N,375,4,025,12,0621581561,0122385681,0069369137,0179435141,M1_a,M2_a
+dinner,They liked the turkey dinner,They liked the anniversary dinner,FALSE,Polysemy,turkey,anniversary,M1_a_M2_b,N,3733333333,4,0266666667,15,059361684,0089506567,0039854407,0153271209,M1_a,M2_b
+dinner,They liked the light dinner,They liked the formal dinner,FALSE,Polysemy,light,formal,M1_b_M2_a,N,3454545455,4,0545454545,11,1035725481,0075368047,0057322264,0312282982,M1_b,M2_a
+dinner,They liked the light dinner,They liked the anniversary dinner,FALSE,Polysemy,light,anniversary,M1_b_M2_b,N,3846153846,4,0153846154,13,0554700196,0128708661,0041846991,0153846154,M1_b,M2_b
+dinner,They liked the turkey dinner,They liked the light dinner,TRUE,Polysemy,turkey,light,M1_a_M1_b,N,3846153846,4,0153846154,13,0375533808,0095041096,003463757,0104154339,M1_a,M1_b
+dinner,They liked the formal dinner,They liked the anniversary dinner,TRUE,Polysemy,formal,anniversary,M2_a_M2_b,N,3923076923,4,0076923077,13,0277350098,0063754916,0054771185,0076923077,M2_a,M2_b
+drain,They drained the account,They drained the pool,FALSE,Polysemy,account,pool,M1_a_M2_a,V,1615384615,1,0615384615,13,132529629,0279023349,0171304047,0367571056,M1_a,M2_a
+drain,They drained the account,They drained the pond,FALSE,Polysemy,account,pond,M1_a_M2_b,V,2333333333,2,0333333333,12,107308674,0312390685,0194308102,0309773459,M1_a,M2_b
+drain,They drained the budget,They drained the pool,FALSE,Polysemy,budget,pool,M1_b_M2_a,V,17,2,03,10,1059349905,036032635,0151669145,0334995854,M1_b,M2_a
+drain,They drained the budget,They drained the pond,FALSE,Polysemy,budget,pond,M1_b_M2_b,V,19375,2,00625,16,1181453907,0365361273,0174552143,0295363477,M1_b,M2_b
+drain,They drained the account,They drained the budget,TRUE,Polysemy,account,budget,M1_a_M1_b,V,38,4,02,10,0421637021,0163004339,0135794103,0133333333,M1_a,M1_b
+drain,They drained the pool,They drained the pond,TRUE,Polysemy,pool,pond,M2_a_M2_b,V,375,4,025,16,0577350269,0119492829,0047318161,0144337567,M2_a,M2_b
+draw,He drew a gun,He drew a tree,FALSE,Polysemy,gun,tree,M1_a_M2_a,V,0363636364,0,0363636364,11,1206045378,0326175928,0077704012,0363636364,M1_a,M2_a
+draw,He drew a gun,They drew a picture,FALSE,Polysemy,gun,picture,M1_a_M2_b,V,0461538462,0,0461538462,13,0967417922,0411751091,0143300056,0268313456,M1_a,M2_b
+draw,He drew a sword,He drew a tree,FALSE,Polysemy,sword,tree,M1_b_M2_a,V,06,0,06,10,1264911064,0268451571,0068489969,04,M1_b,M2_a
+draw,He drew a sword,They drew a picture,FALSE,Polysemy,sword,picture,M1_b_M2_b,V,0473684211,0,0473684211,19,1020262551,0384750426,015406543,0234064282,M1_b,M2_b
+draw,He drew a gun,He drew a sword,TRUE,Polysemy,gun,sword,M1_a_M1_b,V,30625,35,04375,16,1340087062,012595737,0049517512,0335021765,M1_a,M1_b
+draw,He drew a tree,They drew a picture,TRUE,Polysemy,tree,picture,M2_a_M2_b,V,4,4,0,8,0,0222712755,0100153685,0,M2_a,M2_b
+dream,He had a recurring dream,He had a childhood dream,FALSE,Polysemy,recurring,childhood,M1_a_M2_a,N,25,25,0,12,1566698904,0103289008,0066080987,0452267017,M1_a,M2_a
+dream,He had a recurring dream,He had a career dream,FALSE,Polysemy,recurring,career,M1_a_M2_b,N,1764705882,2,0235294118,17,1251469724,0399492979,0081509531,0303525992,M1_a,M2_b
+dream,He had a bad dream,He had a childhood dream,FALSE,Polysemy,bad,childhood,M1_b_M2_a,N,1888888889,2,0111111111,9,1054092553,0217616677,0090056121,0351364184,M1_b,M2_a
+dream,He had a bad dream,He had a career dream,FALSE,Polysemy,bad,career,M1_b_M2_b,N,1777777778,2,0222222222,9,0666666667,0470203102,0074092865,0222222222,M1_b,M2_b
+dream,He had a recurring dream,He had a bad dream,TRUE,Polysemy,recurring,bad,M1_a_M1_b,N,4,4,0,11,0,011092937,0069384634,0,M1_a,M1_b
+dream,He had a childhood dream,He had a career dream,TRUE,Polysemy,childhood,career,M2_a_M2_b,N,3421052632,4,0578947368,19,0692482609,0354789078,0057070136,0158866406,M2_a,M2_b
+drill,It was a grueling drill,It was an electric drill,FALSE,Homonymy,grueling,electric,M1_a_M2_a,N,04,0,04,10,0699205899,0255461097,0114933491,0221108319,M1_a,M2_a
+drill,It was a grueling drill,It was a battery powered drill,FALSE,Homonymy,grueling,battery powered,M1_a_M2_b,N,0636363636,0,0636363636,11,0809039835,0634080291,0163684726,0243934688,M1_a,M2_b
+drill,It was a challenging drill,It was an electric drill,FALSE,Homonymy,challenging,electric,M1_b_M2_a,N,0230769231,0,0230769231,13,043852901,0254882514,0127792597,0121626064,M1_b,M2_a
+drill,It was a challenging drill,It was a battery powered drill,FALSE,Homonymy,challenging,battery powered,M1_b_M2_b,N,0153846154,0,0153846154,13,0375533808,0656190097,018358022,0104154339,M1_b,M2_b
+drill,It was a grueling drill,It was a challenging drill,TRUE,Homonymy,grueling,challenging,M1_a_M1_b,N,2888888889,35,0611111111,18,1278274981,0147376478,0046640277,0301292303,M1_a,M1_b
+drill,It was an electric drill,It was a battery powered drill,TRUE,Homonymy,electric,battery powered,M2_a_M2_b,N,4,4,0,12,0,0561830163,0086390257,0,M2_a,M2_b
+examination,It was a multiple choice examination,It was a prostate examination,FALSE,Polysemy,multiple choice,prostate,M1_a_M2_a,N,2,2,0,13,1224744871,0602444679,0081607401,033968311,M1_a,M2_a
+examination,It was a multiple choice examination,It was a physical examination,FALSE,Polysemy,multiple choice,physical,M1_a_M2_b,N,3125,35,0375,8,0991031209,057866478,0046395063,0350382444,M1_a,M2_b
+examination,It was a difficult examination,It was a prostate examination,FALSE,Polysemy,difficult,prostate,M1_b_M2_a,N,1764705882,2,0235294118,17,1251469724,0354614735,0158068538,0303525992,M1_b,M2_a
+examination,It was a difficult examination,It was a physical examination,FALSE,Polysemy,difficult,physical,M1_b_M2_b,N,2625,25,0125,8,1302470181,0239612997,0069825172,0460492749,M1_b,M2_b
+examination,It was a multiple choice examination,It was a difficult examination,TRUE,Polysemy,multiple choice,difficult,M1_a_M1_b,N,3526315789,4,0473684211,19,0841191024,0610408217,0079852462,0192982456,M1_a,M1_b
+examination,It was a prostate examination,It was a physical examination,TRUE,Polysemy,prostate,physical,M2_a_M2_b,N,4,4,0,12,0,0137051105,0090358555,0,M2_a,M2_b
+fan,They had an electric fan,They had a zealous fan,FALSE,Homonymy,electric,zealous,M1_a_M2_a,N,0266666667,0,0266666667,15,059361684,0402846813,0177222013,0153271209,M1_a,M2_a
+fan,They had an electric fan,They had an enthusiastic fan,FALSE,Homonymy,electric,enthusiastic,M1_a_M2_b,N,0,0,0,12,0,0426824152,0194414139,0,M1_a,M2_b
+fan,They had a ceiling fan,They had a zealous fan,FALSE,Homonymy,ceiling,zealous,M1_b_M2_a,N,02,0,02,15,0560611911,0475281417,0176194489,0144749373,M1_b,M2_a
+fan,They had a ceiling fan,They had an enthusiastic fan,FALSE,Homonymy,ceiling,enthusiastic,M1_b_M2_b,N,0071428571,0,0071428571,14,0267261242,0498543441,021644938,0071428571,M1_b,M2_b
+fan,They had an electric fan,They had a ceiling fan,TRUE,Homonymy,electric,ceiling,M1_a_M1_b,N,39,4,01,10,0316227766,0076492667,0080676556,01,M1_a,M1_b
+fan,They had a zealous fan,They had an enthusiastic fan,TRUE,Homonymy,zealous,enthusiastic,M2_a_M2_b,N,3272727273,4,0727272727,11,161807967,0106026471,0060933888,0487869377,M2_a,M2_b
+file,She had a text file,She had a nail file,FALSE,Homonymy,text,nail,M1_a_M2_a,N,0214285714,0,0214285714,14,0578934224,0278784513,0078388691,015472668,M1_a,M2_a
+file,She had a text file,She had a steel file,FALSE,Homonymy,text,steel,M1_a_M2_b,N,0384615385,0,0384615385,13,0650443636,0317461908,0099503279,0180400606,M1_a,M2_b
+file,She had a data file,She had a nail file,FALSE,Homonymy,data,nail,M1_b_M2_a,N,0083333333,0,0083333333,12,0288675135,0318774164,0097823262,0083333333,M1_b,M2_a
+file,She had a data file,She had a steel file,FALSE,Homonymy,data,steel,M1_b_M2_b,N,025,0,025,12,0621581561,0301388562,0105181456,0179435141,M1_b,M2_b
+file,She had a text file,She had a data file,TRUE,Homonymy,text,data,M1_a_M1_b,N,36,4,04,10,0516397779,0118700325,0054543734,0163299316,M1_a,M1_b
+file,She had a nail file,She had a steel file,TRUE,Homonymy,nail,steel,M2_a_M2_b,N,18125,2,01875,16,1327591805,0126254261,0066116333,0331897951,M2_a,M2_b
+film,It was an action film,It was a transparent film,FALSE,Polysemy,action,transparent,M1_a_M2_a,N,1222222222,2,0777777778,9,1201850425,0494718134,0061695457,0400616808,M1_a,M2_a
+film,It was an action film,It was a plastic film,FALSE,Polysemy,action,plastic,M1_a_M2_b,N,0388888889,0,0388888889,18,0697802339,0486100733,0123729765,0164473589,M1_a,M2_b
+film,It was a censored film,It was a transparent film,FALSE,Polysemy,censored,transparent,M1_b_M2_a,N,1444444444,2,0555555556,9,1509230856,0440122902,0045653105,0503076952,M1_b,M2_a
+film,It was a censored film,It was a plastic film,FALSE,Polysemy,censored,plastic,M1_b_M2_b,N,0066666667,0,0066666667,15,025819889,0447441041,0128340244,0066666667,M1_b,M2_b
+film,It was an action film,It was a censored film,TRUE,Polysemy,action,censored,M1_a_M1_b,N,38,4,02,10,0421637021,0148115993,0059191465,0133333333,M1_a,M1_b
+film,It was a transparent film,It was a plastic film,TRUE,Polysemy,transparent,plastic,M2_a_M2_b,N,34375,4,05625,16,081394103,0065887511,0102606654,0203485257,M2_a,M2_b
+fix,They fixed the radio,They fixed the date,FALSE,Polysemy,radio,date,M1_a_M2_a,V,1833333333,2,0166666667,12,1466804401,0243120611,0162263095,0423429958,M1_a,M2_a
+fix,They fixed the radio,They fixed the price,FALSE,Polysemy,radio,price,M1_a_M2_b,V,1333333333,1,0333333333,9,0707106781,029379493,0188381612,023570226,M1_a,M2_b
+fix,They fixed the dishwasher,They fixed the date,FALSE,Polysemy,dishwasher,date,M1_b_M2_a,V,0833333333,05,0333333333,12,1193416283,0345567882,0155044973,0344509606,M1_b,M2_a
+fix,They fixed the dishwasher,They fixed the price,FALSE,Polysemy,dishwasher,price,M1_b_M2_b,V,07,05,02,10,0823272602,0354539871,0171358287,0260341656,M1_b,M2_b
+fix,They fixed the radio,They fixed the dishwasher,TRUE,Polysemy,radio,dishwasher,M1_a_M1_b,V,3904761905,4,0095238095,21,0300792604,0153936148,0145602703,0065638327,M1_a,M1_b
+fix,They fixed the date,They fixed the price,TRUE,Polysemy,date,price,M2_a_M2_b,V,2615384615,3,0384615385,13,1386750491,017143929,0102191091,0384615385,M2_a,M2_b
+foundation,It was a charitable foundation,It was a wooden foundation,FALSE,Polysemy,charitable,wooden,M1_a_M2_a,N,0583333333,0,0583333333,12,0792961461,0405302763,0151539564,0228908257,M1_a,M2_a
+foundation,It was a charitable foundation,It was a concrete foundation,FALSE,Polysemy,charitable,concrete,M1_a_M2_b,N,1,0,1,16,1460593487,0387109995,0119116426,0365148372,M1_a,M2_b
+foundation,It was an educational foundation,It was a wooden foundation,FALSE,Polysemy,educational,wooden,M1_b_M2_a,N,075,05,025,8,1035098339,037853992,0115469217,0365962527,M1_b,M2_a
+foundation,It was an educational foundation,It was a concrete foundation,FALSE,Polysemy,educational,concrete,M1_b_M2_b,N,1555555556,1,0555555556,9,1509230856,0369950593,0081631422,0503076952,M1_b,M2_b
+foundation,It was a charitable foundation,It was an educational foundation,TRUE,Polysemy,charitable,educational,M1_a_M1_b,N,3066666667,4,0933333333,15,1334523279,013188982,0057687521,0344572429,M1_a,M1_b
+foundation,It was a wooden foundation,It was a concrete foundation,TRUE,Polysemy,wooden,concrete,M2_a_M2_b,N,3764705882,4,0235294118,17,0562295715,0068252504,0048521876,0136376743,M2_a,M2_b
+function,It was a mathematical function,It was a social function,FALSE,Polysemy,mathematical,social,M1_a_M2_a,N,0933333333,0,0933333333,15,1279880947,0305757463,0082315564,0330463839,M1_a,M2_a
+function,It was a mathematical function,It was a business function,FALSE,Polysemy,mathematical,business,M1_a_M2_b,N,0266666667,0,0266666667,15,059361684,0270422041,0082114339,0153271209,M1_a,M2_b
+function,It was a linear function,It was a social function,FALSE,Polysemy,linear,social,M1_b_M2_a,N,02,0,02,10,0421637021,0477748871,0093588471,0133333333,M1_b,M2_a
+function,It was a linear function,It was a business function,FALSE,Polysemy,linear,business,M1_b_M2_b,N,05,0,05,12,0674199862,0463516176,0093616426,0194624736,M1_b,M2_b
+function,It was a mathematical function,It was a linear function,TRUE,Polysemy,mathematical,linear,M1_a_M1_b,N,375,4,025,12,0621581561,0164885163,0041750014,0179435141,M1_a,M1_b
+function,It was a social function,It was a business function,TRUE,Polysemy,social,business,M2_a_M2_b,N,3384615385,4,0615384615,13,0960768923,0084936082,0051722288,0266469355,M2_a,M2_b
+ground,He was on the firm ground,He was on the camp ground,FALSE,Polysemy,firm,camp,M1_a_M2_a,N,2285714286,2,0285714286,14,1204387583,0308426082,0066148043,0321886121,M1_a,M2_a
+ground,He was on the firm ground,He was on the parade ground,FALSE,Polysemy,firm,parade,M1_a_M2_b,N,1846153846,2,0153846154,13,1344504484,033117944,0072730541,0372898451,M1_a,M2_b
+ground,He was on the frozen ground,He was on the camp ground,FALSE,Polysemy,frozen,camp,M1_b_M2_a,N,2923076923,3,0076923077,13,1037749043,0238362193,0047380745,0287819799,M1_b,M2_a
+ground,He was on the frozen ground,He was on the parade ground,FALSE,Polysemy,frozen,parade,M1_b_M2_b,N,35,4,05,10,0707106781,0350116193,006280309,0223606798,M1_b,M2_b
+ground,He was on the firm ground,He was on the frozen ground,TRUE,Polysemy,firm,frozen,M1_a_M1_b,N,3615384615,4,0384615385,13,0767947648,0268796027,0078346133,0212990355,M1_a,M1_b
+ground,He was on the camp ground,He was on the parade ground,TRUE,Polysemy,camp,parade,M2_a_M2_b,N,3285714286,4,0714285714,14,1437335753,0222591102,0027148664,0384144138,M2_a,M2_b
+guard,They liked the night guard,They liked the coast guard,FALSE,Polysemy,night,coast,M1_a_M2_a,N,2647058824,3,0352941176,17,1538716042,0296960831,0084294081,0373193457,M1_a,M2_a
+guard,They liked the night guard,They liked the national guard,FALSE,Polysemy,night,national,M1_a_M2_b,N,1777777778,2,0222222222,9,16414763,0255502522,0068060756,0547158767,M1_a,M2_b
+guard,They liked the security guard,They liked the coast guard,FALSE,Polysemy,security,coast,M1_b_M2_a,N,3615384615,4,0384615385,13,0767947648,0323509276,008933562,0212990355,M1_b,M2_a
+guard,They liked the security guard,They liked the national guard,FALSE,Polysemy,security,national,M1_b_M2_b,N,3454545455,4,0545454545,11,0820199532,0289503992,0079711378,0247299464,M1_b,M2_b
+guard,They liked the night guard,They liked the security guard,TRUE,Polysemy,night,security,M1_a_M1_b,N,3454545455,4,0545454545,11,1213559752,0201911449,004474318,0365902033,M1_a,M1_b
+guard,They liked the coast guard,They liked the national guard,TRUE,Polysemy,coast,national,M2_a_M2_b,N,38125,4,01875,16,0543905629,0165234149,0077930093,0135976407,M2_a,M2_b
+guide,He had an assembly guide,He had a talkative guide,FALSE,Polysemy,assembly,talkative,M1_a_M2_a,N,2333333333,25,0166666667,12,1435481125,0165287137,0071446717,0414387707,M1_a,M2_a
+guide,He had an assembly guide,He had a friendly guide,FALSE,Polysemy,assembly,friendly,M1_a_M2_b,N,225,2,025,12,1288057029,0215485573,0077599823,0371830036,M1_a,M2_b
+guide,He had a TV guide,He had a talkative guide,FALSE,Polysemy,TV,talkative,M1_b_M2_a,N,11875,1,01875,16,0910585892,0275434554,0073995888,0227646473,M1_b,M2_a
+guide,He had a TV guide,He had a friendly guide,FALSE,Polysemy,TV,friendly,M1_b_M2_b,N,1,05,05,10,1154700538,031368345,0076377749,0365148372,M1_b,M2_b
+guide,He had an assembly guide,He had a TV guide,TRUE,Polysemy,assembly,TV,M1_a_M1_b,N,2272727273,2,0272727273,11,1272077756,024040103,0065190911,0383545875,M1_a,M1_b
+guide,He had a talkative guide,He had a friendly guide,TRUE,Polysemy,talkative,friendly,M2_a_M2_b,N,3875,4,0125,16,0341565026,0087630928,0029138327,0085391256,M2_a,M2_b
+hail,They hailed a cab,They hailed a friend,FALSE,Polysemy,cab,friend,M1_a_M2_a,V,24,2,04,15,1183215957,0281277299,0097313643,0305505046,M1_a,M2_a
+hail,They hailed a cab,They hailed a guest,FALSE,Polysemy,cab,guest,M1_a_M2_b,V,1727272727,2,0272727273,11,1190874392,0294083297,0092353225,0359062139,M1_a,M2_b
+hail,They hailed a taxi,They hailed a friend,FALSE,Polysemy,taxi,friend,M1_b_M2_a,V,2692307692,3,0307692308,13,1250640861,0277096033,0095104337,0346865366,M1_b,M2_a
+hail,They hailed a taxi,They hailed a guest,FALSE,Polysemy,taxi,guest,M1_b_M2_b,V,21,2,01,10,1370320319,0294228375,0096482575,0433333333,M1_b,M2_b
+hail,They hailed a cab,They hailed a taxi,TRUE,Polysemy,cab,taxi,M1_a_M1_b,V,4,4,0,9,0,0028505385,0029815912,0,M1_a,M1_b
+hail,They hailed a friend,They hailed a guest,TRUE,Polysemy,friend,guest,M2_a_M2_b,V,3315789474,4,0684210526,19,1108183277,011702776,0048453987,025423468,M2_a,M2_b
+home,It was a summer home,It was a funeral home,FALSE,Polysemy,summer,funeral,M1_a_M2_a,N,2153846154,2,0153846154,13,0800640769,0321417093,011115998,0222057796,M1_a,M2_a
+home,It was a summer home,It was a nursing home,FALSE,Polysemy,summer,nursing,M1_a_M2_b,N,3421052632,4,0578947368,19,1017392608,0294550896,0111939251,0233405872,M1_a,M2_b
+home,It was a childhood home,It was a funeral home,FALSE,Polysemy,childhood,funeral,M1_b_M2_a,N,2076923077,2,0076923077,13,1441153384,0324015737,0089763939,0399704033,M1_b,M2_a
+home,It was a childhood home,It was a nursing home,FALSE,Polysemy,childhood,nursing,M1_b_M2_b,N,35,4,05,8,0755928946,0328268707,0094116032,0267261242,M1_b,M2_b
+home,It was a summer home,It was a childhood home,TRUE,Polysemy,summer,childhood,M1_a_M1_b,N,3818181818,4,0181818182,11,0404519917,0097551465,0053443015,0121967344,M1_a,M1_b
+home,It was a funeral home,It was a nursing home,TRUE,Polysemy,funeral,nursing,M2_a_M2_b,N,2846153846,3,0153846154,13,114354375,0190919042,0052004874,0317161971,M2_a,M2_b
+intelligence,They had natural intelligence,They had classified intelligence,FALSE,Polysemy,natural,classified,M1_a_M2_a,N,18,1,08,15,1473576795,0364275575,015520227,0380475892,M1_a,M2_a
+intelligence,They had natural intelligence,They had military intelligence,FALSE,Polysemy,natural,military,M1_a_M2_b,N,3333333333,4,0666666667,9,0866025404,0334796607,0092460513,0288675135,M1_a,M2_b
+intelligence,They had innate intelligence,They had classified intelligence,FALSE,Polysemy,innate,classified,M1_b_M2_a,N,2333333333,2,0333333333,9,1118033989,0356527925,0215245664,0372677996,M1_b,M2_a
+intelligence,They had innate intelligence,They had military intelligence,FALSE,Polysemy,innate,military,M1_b_M2_b,N,33125,35,01875,16,0793200269,0343083978,0154103637,0198300067,M1_b,M2_b
+intelligence,They had natural intelligence,They had innate intelligence,TRUE,Polysemy,natural,innate,M1_a_M1_b,N,3545454545,4,0454545455,11,0934198733,0052037835,0049465179,0281671516,M1_a,M1_b
+intelligence,They had classified intelligence,They had military intelligence,TRUE,Polysemy,classified,military,M2_a_M2_b,N,3588235294,4,0411764706,17,071228712,0075024784,0121954203,0172755002,M2_a,M2_b
+issue,It was a sensitive issue,It was a weekly issue,FALSE,Polysemy,sensitive,weekly,M1_a_M2_a,N,08,0,08,10,1316561177,0488652408,0088909268,04163332,M1_a,M2_a
+issue,It was a sensitive issue,It was a special issue,FALSE,Polysemy,sensitive,special,M1_a_M2_b,N,3444444444,4,0555555556,9,1013793755,0307942808,0068591475,0337931252,M1_a,M2_b
+issue,It was a political issue,It was a weekly issue,FALSE,Polysemy,political,weekly,M1_b_M2_a,N,175,1,075,12,1544785952,0460301161,0080926478,0445941293,M1_b,M2_a
+issue,It was a political issue,It was a special issue,FALSE,Polysemy,political,special,M1_b_M2_b,N,2235294118,2,0235294118,17,1521898969,0342561364,0074750662,0369114718,M1_b,M2_b
+issue,It was a sensitive issue,It was a political issue,TRUE,Polysemy,sensitive,political,M1_a_M1_b,N,38,4,02,15,0560611911,0088626802,0034658849,0144749373,M1_a,M1_b
+issue,It was a weekly issue,It was a special issue,TRUE,Polysemy,weekly,special,M2_a_M2_b,N,2642857143,3,0357142857,14,1446860945,026971966,0067211151,0386689853,M2_a,M2_b
+jam,It was a blackberry jam,It was a traffic jam,FALSE,Homonymy,blackberry,traffic,M1_a_M2_a,N,0071428571,0,0071428571,14,0267261242,0442857265,0108810067,0071428571,M1_a,M2_a
+jam,It was a blackberry jam,It was a paper jam,FALSE,Homonymy,blackberry,paper,M1_a_M2_b,N,0538461538,0,0538461538,13,1126601424,0114704907,0072253227,0312463016,M1_a,M2_b
+jam,It was a peach jam,It was a traffic jam,FALSE,Homonymy,peach,traffic,M1_b_M2_a,N,0,0,0,12,0,0450755119,0099556148,0,M1_b,M2_a
+jam,It was a peach jam,It was a paper jam,FALSE,Homonymy,peach,paper,M1_b_M2_b,N,0066666667,0,0066666667,15,025819889,0154984951,0054440141,0066666667,M1_b,M2_b
+jam,It was a blackberry jam,It was a peach jam,TRUE,Homonymy,blackberry,peach,M1_a_M1_b,N,4,4,0,13,0,0106470287,0013601124,0,M1_a,M1_b
+jam,It was a traffic jam,It was a paper jam,TRUE,Homonymy,traffic,paper,M2_a_M2_b,N,21,2,01,10,1197219,0395899713,0070620716,037859389,M2_a,M2_b
+key,It was a duplicate key,It was a delete key,FALSE,Polysemy,duplicate,delete,M1_a_M2_a,N,1076923077,1,0076923077,13,1441153384,0084568501,0069850564,0399704033,M1_a,M2_a
+key,It was a duplicate key,It was a backspace key,FALSE,Polysemy,duplicate,backspace,M1_a_M2_b,N,0454545455,0,0454545455,11,0820199532,0138863146,0048993409,0247299464,M1_a,M2_b
+key,It was a master key,It was a delete key,FALSE,Polysemy,master,delete,M1_b_M2_a,N,075,0,075,12,1215431087,0100652397,0116315901,0350864733,M1_b,M2_a
+key,It was a master key,It was a backspace key,FALSE,Polysemy,master,backspace,M1_b_M2_b,N,0916666667,1,0083333333,12,099620492,0185944676,007235074,0287579589,M1_b,M2_b
+key,It was a duplicate key,It was a master key,TRUE,Polysemy,duplicate,master,M1_a_M1_b,N,3909090909,4,0090909091,11,0301511345,0059563339,0068055868,0090909091,M1_a,M1_b
+key,It was a delete key,It was a backspace key,TRUE,Polysemy,delete,backspace,M2_a_M2_b,N,3666666667,4,0333333333,18,0685994341,0115159452,0070094943,0161690417,M2_a,M2_b
+lamb,They liked the marinated lamb,They liked the cute lamb,FALSE,Polysemy,marinated,cute,M1_a_M2_a,N,33,35,02,10,0823272602,0091305315,0052619398,0260341656,M1_a,M2_a
+lamb,They liked the marinated lamb,They liked the friendly lamb,FALSE,Polysemy,marinated,friendly,M1_a_M2_b,N,3,3,0,12,1206045378,0110114396,0061512589,0348155312,M1_a,M2_b
+lamb,They liked the grilled lamb,They liked the cute lamb,FALSE,Polysemy,grilled,cute,M1_b_M2_a,N,3466666667,4,0533333333,15,0639940473,008867979,005507952,016523192,M1_b,M2_a
+lamb,They liked the grilled lamb,They liked the friendly lamb,FALSE,Polysemy,grilled,friendly,M1_b_M2_b,N,3294117647,4,0705882353,17,1046703509,0107629597,0059822142,025386289,M1_b,M2_b
+lamb,They liked the marinated lamb,They liked the grilled lamb,TRUE,Polysemy,marinated,grilled,M1_a_M1_b,N,4,4,0,12,0,0041544676,0236713231,0,M1_a,M1_b
+lamb,They liked the cute lamb,They liked the friendly lamb,TRUE,Polysemy,cute,friendly,M2_a_M2_b,N,3636363636,4,0363636364,11,1206045378,0032332778,0022594988,0363636364,M2_a,M2_b
+lap,She lapped the milk,She lapped the runners,FALSE,Homonymy,milk,runners,M1_a_M2_a,V,02,0,02,15,0414039336,0331312001,0118968368,0106904497,M1_a,M2_a
+lap,She lapped the milk,She lapped the competitors,FALSE,Homonymy,milk,competitors,M1_a_M2_b,V,0333333333,0,0333333333,12,0492365964,0412111938,0140125692,0142133811,M1_a,M2_b
+lap,She lapped the water,She lapped the runners,FALSE,Homonymy,water,runners,M1_b_M2_a,V,0333333333,0,0333333333,12,0887625365,0179503739,007594049,0256235372,M1_b,M2_a
+lap,She lapped the water,She lapped the competitors,FALSE,Homonymy,water,competitors,M1_b_M2_b,V,05,05,0,10,0527046277,0295544863,0102032185,0166666667,M1_b,M2_b
+lap,She lapped the milk,She lapped the water,TRUE,Homonymy,milk,water,M1_a_M1_b,V,3625,4,0375,8,051754917,0180359662,0078547239,0182981264,M1_a,M1_b
+lap,She lapped the runners,She lapped the competitors,TRUE,Homonymy,runners,competitors,M2_a_M2_b,V,345,4,055,20,0998683344,0108225286,0041925013,0223312384,M2_a,M2_b
+load,She loaded the gun,She loaded the truck,FALSE,Polysemy,gun,truck,M1_a_M2_a,V,2142857143,2,0142857143,7,1069044968,025092721,0067025781,0404061018,M1_a,M2_a
+load,She loaded the gun,She loaded the van,FALSE,Polysemy,gun,van,M1_a_M2_b,V,2466666667,2,0466666667,15,1125462868,0221700847,0069086552,0290593263,M1_a,M2_b
+load,She loaded the rifle,She loaded the truck,FALSE,Polysemy,rifle,truck,M1_b_M2_a,V,2538461538,2,0538461538,13,0967417922,0205683231,0083544791,0268313456,M1_b,M2_a
+load,She loaded the rifle,She loaded the van,FALSE,Polysemy,rifle,van,M1_b_M2_b,V,25,25,0,14,0759554525,0178631902,0084087253,0202999486,M1_b,M2_b
+load,She loaded the gun,She loaded the rifle,TRUE,Polysemy,gun,rifle,M1_a_M1_b,V,4,4,0,14,0,0046735942,0031222999,0,M1_a,M1_b
+load,She loaded the truck,She loaded the van,TRUE,Polysemy,truck,van,M2_a_M2_b,V,4,4,0,14,0,0035642982,001317215,0,M2_a,M2_b
+lock,She had curly locks,She had window locks,FALSE,Homonymy,curly,window,M1_a_M2_a,N,0,0,0,13,0,0364491343,009430939,0,M1_a,M2_a
+lock,She had curly locks,She had door locks,FALSE,Homonymy,curly,door,M1_a_M2_b,N,0,0,0,10,0,0380106211,0101951361,0,M1_a,M2_b
+lock,She had brown locks,She had window locks,FALSE,Homonymy,brown,window,M1_b_M2_a,N,0210526316,0,0210526316,19,0535303379,0375346899,0067510068,0122807018,M1_b,M2_a
+lock,She had brown locks,She had door locks,FALSE,Homonymy,brown,door,M1_b_M2_b,N,0333333333,0,0333333333,12,0651338947,0380734086,0070536137,0188025358,M1_b,M2_b
+lock,She had curly locks,She had brown locks,TRUE,Homonymy,curly,brown,M1_a_M1_b,N,3785714286,4,0214285714,14,0578934224,0049814999,0032923996,015472668,M1_a,M1_b
+lock,She had window locks,She had door locks,TRUE,Homonymy,window,door,M2_a_M2_b,N,3555555556,4,0444444444,9,0726483157,0060202837,0021203756,0242161052,M2_a,M2_b
+lunch,They liked the hot lunch,They liked the afternoon lunch,FALSE,Polysemy,hot,afternoon,M1_a_M2_a,N,3785714286,4,0214285714,14,0425815314,0073074341,0053751588,011380393,M1_a,M2_a
+lunch,They liked the hot lunch,They liked the women's lunch,FALSE,Polysemy,hot,women,M1_a_M2_b,N,3388888889,4,0611111111,18,1036900863,0468395352,004511404,0244399877,M1_a,M2_b
+lunch,They liked the sandwich lunch,They liked the afternoon lunch,FALSE,Polysemy,sandwich,afternoon,M1_b_M2_a,N,3857142857,4,0142857143,7,0377964473,0132222176,0034859002,0142857143,M1_b,M2_a
+lunch,They liked the sandwich lunch,They liked the women's lunch,FALSE,Polysemy,sandwich,women,M1_b_M2_b,N,3583333333,4,0416666667,12,0792961461,0470807552,0033152342,0228908257,M1_b,M2_b
+lunch,They liked the hot lunch,They liked the sandwich lunch,TRUE,Polysemy,hot,sandwich,M1_a_M1_b,N,3933333333,4,0066666667,15,025819889,0127897918,0032467186,0066666667,M1_a,M1_b
+lunch,They liked the afternoon lunch,They liked the women's lunch,TRUE,Polysemy,afternoon,women,M2_a_M2_b,N,4,4,0,11,0,046317637,0055760741,0,M2_a,M2_b
+market,He liked the flea market,He liked the housing market,FALSE,Polysemy,flea,housing,M1_a_M2_a,N,2555555556,3,0444444444,9,0881917104,020639205,0126381278,0293972368,M1_a,M2_a
+market,He liked the flea market,He liked the stock market,FALSE,Polysemy,flea,stock,M1_a_M2_b,N,2285714286,25,0214285714,14,1437335753,0310365856,0132387996,0384144138,M1_a,M2_b
+market,He liked the fish market,He liked the housing market,FALSE,Polysemy,fish,housing,M1_b_M2_a,N,2263157895,2,0263157895,19,1484815936,0179006577,0119191766,0340640138,M1_b,M2_a
+market,He liked the fish market,He liked the stock market,FALSE,Polysemy,fish,stock,M1_b_M2_b,N,19,2,01,10,1286683938,0278942943,0124048412,0406885187,M1_b,M2_b
+market,He liked the flea market,He liked the fish market,TRUE,Polysemy,flea,fish,M1_a_M1_b,N,3923076923,4,0076923077,13,0277350098,0097855568,0052541792,0076923077,M1_a,M1_b
+market,He liked the housing market,He liked the stock market,TRUE,Polysemy,housing,stock,M2_a_M2_b,N,3083333333,3,0083333333,12,1164500153,0230547428,0082978725,0336162238,M2_a,M2_b
+match,It was a lit match,It was a soccer match,FALSE,Homonymy,lit,soccer,M1_a_M2_a,N,0111111111,0,0111111111,9,0333333333,0462172866,006049633,0111111111,M1_a,M2_a
+match,It was a lit match,It was a tennis match,FALSE,Homonymy,lit,tennis,M1_a_M2_b,N,0,0,0,9,0,0469395101,0078830719,0,M1_a,M2_b
+match,It was a burning match,It was a soccer match,FALSE,Homonymy,burning,soccer,M1_b_M2_a,N,03125,0,03125,16,0793200269,0468630493,0067629695,0198300067,M1_b,M2_a
+match,It was a burning match,It was a tennis match,FALSE,Homonymy,burning,tennis,M1_b_M2_b,N,0555555556,0,0555555556,18,11490263,0500597209,0080270708,0270828096,M1_b,M2_b
+match,It was a lit match,It was a burning match,TRUE,Homonymy,lit,burning,M1_a_M1_b,N,4,4,0,10,0,0091742992,0035631716,0,M1_a,M1_b
+match,It was a soccer match,It was a tennis match,TRUE,Homonymy,soccer,tennis,M2_a_M2_b,N,3666666667,4,0333333333,15,1046536237,0156254768,0045688748,0270214494,M2_a,M2_b
+medicine,It was cough medicine,It was orthopedic medicine,FALSE,Polysemy,cough,orthopedic,M1_a_M2_a,N,2666666667,3,0333333333,15,1112697281,0246646047,0076702595,0287297202,M1_a,M2_a
+medicine,It was cough medicine,It was veterinary medicine,FALSE,Polysemy,cough,veterinary,M1_a_M2_b,N,2444444444,2,0444444444,9,1424000624,0290193081,0069652915,0474666875,M1_a,M2_b
+medicine,It was prescription medicine,It was orthopedic medicine,FALSE,Polysemy,prescription,orthopedic,M1_b_M2_a,N,3222222222,4,0777777778,9,1092906421,0252791405,0073477268,036430214,M1_b,M2_a
+medicine,It was prescription medicine,It was veterinary medicine,FALSE,Polysemy,prescription,veterinary,M1_b_M2_b,N,35,4,05,10,108012345,0270864844,0065626502,0341565026,M1_b,M2_b
+medicine,It was cough medicine,It was prescription medicine,TRUE,Polysemy,cough,prescription,M1_a_M1_b,N,35625,4,04375,16,1093541647,0135519445,0045588255,0273385412,M1_a,M1_b
+medicine,It was orthopedic medicine,It was veterinary medicine,TRUE,Polysemy,orthopedic,veterinary,M2_a_M2_b,N,3833333333,4,0166666667,18,0514495755,0184719861,0040844679,0121267813,M2_a,M2_b
+message,There was a phone message,There was an urgent message,FALSE,Polysemy,phone,urgent,M1_a_M2_a,N,35,35,0,10,0527046277,0155624568,0098115146,0166666667,M1_a,M2_a
+message,There was a phone message,There was a clear message,FALSE,Polysemy,phone,clear,M1_a_M2_b,N,2125,25,0375,8,0991031209,0307215214,0135635555,0350382444,M1_a,M2_b
+message,There was a computer message,There was an urgent message,FALSE,Polysemy,computer,urgent,M1_b_M2_a,N,3,3,0,15,1133893419,0132769883,0115331888,0292770022,M1_b,M2_a
+message,There was a computer message,There was a clear message,FALSE,Polysemy,computer,clear,M1_b_M2_b,N,28125,3,01875,16,1046820583,0257606506,0148432255,0261705146,M1_b,M2_b
+message,There was a phone message,There was a computer message,TRUE,Polysemy,phone,computer,M1_a_M1_b,N,3727272727,4,0272727273,11,0646669791,0093497396,0052448511,0194978278,M1_a,M1_b
+message,There was an urgent message,There was a clear message,TRUE,Polysemy,urgent,clear,M2_a_M2_b,N,3705882353,4,0294117647,17,0587867532,0172176361,0040417314,0142578819,M2_a,M2_b
+mold,It was a fungal mold,It was a rubber mold,FALSE,Homonymy,fungal,rubber,M1_a_M2_a,N,0133333333,0,0133333333,15,0351865775,0203066468,0105068564,0090851353,M1_a,M2_a
+mold,It was a fungal mold,It was a clay mold,FALSE,Homonymy,fungal,clay,M1_a_M2_b,N,0916666667,05,0416666667,12,1240112409,0170827806,0093459785,0357989617,M1_a,M2_b
+mold,It was a harmful mold,It was a rubber mold,FALSE,Homonymy,harmful,rubber,M1_b_M2_a,N,0111111111,0,0111111111,9,0333333333,0219214261,011547327,0111111111,M1_b,M2_a
+mold,It was a harmful mold,It was a clay mold,FALSE,Homonymy,harmful,clay,M1_b_M2_b,N,0357142857,0,0357142857,14,0497245158,0185368598,0108413815,0132894358,M1_b,M2_b
+mold,It was a fungal mold,It was a harmful mold,TRUE,Homonymy,fungal,harmful,M1_a_M1_b,N,30625,35,04375,16,1236594787,0115669966,0068282306,0309148697,M1_a,M1_b
+mold,It was a rubber mold,It was a clay mold,TRUE,Homonymy,rubber,clay,M2_a_M2_b,N,3727272727,4,0272727273,11,0646669791,0137601793,0037674487,0194978278,M2_a,M2_b
+mole,She saw the cancerous mole,She saw the cute mole,FALSE,Homonymy,cancerous,cute,M1_a_M2_a,N,0153846154,0,0153846154,13,0554700196,0121985972,0089485586,0153846154,M1_a,M2_a
+mole,She saw the cancerous mole,She saw the fast mole,FALSE,Homonymy,cancerous,fast,M1_a_M2_b,N,0166666667,0,0166666667,12,0389249472,016255635,0091338396,0112366644,M1_a,M2_b
+mole,She saw the raised mole,She saw the cute mole,FALSE,Homonymy,raised,cute,M1_b_M2_a,N,0625,0,0625,8,1407885953,0136322439,0087554216,0497762852,M1_b,M2_a
+mole,She saw the raised mole,She saw the fast mole,FALSE,Homonymy,raised,fast,M1_b_M2_b,N,115,1,015,20,1386969434,0133527815,0073733807,0310135794,M1_b,M2_b
+mole,She saw the cancerous mole,She saw the raised mole,TRUE,Homonymy,cancerous,raised,M1_a_M1_b,N,2375,35,1125,8,1995530721,0084662199,0096459329,0705526652,M1_a,M1_b
+mole,She saw the cute mole,She saw the fast mole,TRUE,Homonymy,cute,fast,M2_a_M2_b,N,2375,2,0375,16,1586400538,0171923518,0074075401,0396600134,M2_a,M2_b
+movement,He liked the rhythmic movement,He liked the feminist movement,FALSE,Polysemy,rhythmic,feminist,M1_a_M2_a,N,0846153846,1,0153846154,13,0898717034,0418435395,012679708,0249259258,M1_a,M2_a
+movement,He liked the rhythmic movement,He liked the civil rights movement,FALSE,Polysemy,rhythmic,civil rights,M1_a_M2_b,N,0538461538,0,0538461538,13,0967417922,0619402647,0100257814,0268313456,M1_a,M2_b
+movement,He liked the graceful movement,He liked the feminist movement,FALSE,Polysemy,graceful,feminist,M1_b_M2_a,N,1428571429,15,0071428571,14,1157868447,0419799209,0159288824,0309453359,M1_b,M2_a
+movement,He liked the graceful movement,He liked the civil rights movement,FALSE,Polysemy,graceful,civil rights,M1_b_M2_b,N,0833333333,1,0166666667,12,0937436867,0664320558,0112012863,0270614714,M1_b,M2_b
+movement,He liked the rhythmic movement,He liked the graceful movement,TRUE,Polysemy,rhythmic,graceful,M1_a_M1_b,N,3384615385,4,0615384615,13,0869718493,0108740687,0034734726,0241216509,M1_a,M1_b
+movement,He liked the feminist movement,He liked the civil rights movement,TRUE,Polysemy,feminist,civil rights,M2_a_M2_b,N,4,4,0,12,0,0518557727,0067665219,0,M2_a,M2_b
+newspaper,It was a national newspaper,It was a faded newspaper,FALSE,Polysemy,national,faded,M1_a_M2_a,N,39,4,01,10,0316227766,0234838784,0085758209,01,M1_a,M2_a
+newspaper,It was a national newspaper,It was a shredded newspaper,FALSE,Polysemy,national,shredded,M1_a_M2_b,N,3647058824,4,0352941176,17,0785905248,0256969929,0093657017,0190610021,M1_a,M2_b
+newspaper,It was a daily newspaper,It was a faded newspaper,FALSE,Polysemy,daily,faded,M1_b_M2_a,N,4,4,0,10,0,0152527511,0073273778,0,M1_b,M2_a
+newspaper,It was a daily newspaper,It was a shredded newspaper,FALSE,Polysemy,daily,shredded,M1_b_M2_b,N,3777777778,4,0222222222,18,0732084498,0257240891,0085551262,0172553971,M1_b,M2_b
+newspaper,It was a national newspaper,It was a daily newspaper,TRUE,Polysemy,national,daily,M1_a_M1_b,N,4,4,0,10,0,011405164,0041685343,0,M1_a,M1_b
+newspaper,It was a faded newspaper,It was a shredded newspaper,TRUE,Polysemy,faded,shredded,M2_a_M2_b,N,3833333333,4,0166666667,12,0577350269,0079730213,0033593297,0166666667,M2_a,M2_b
+orange,It was a juicy orange,It was a bright orange,FALSE,Polysemy,juicy,bright,M1_a_M2_a,N,2,2,0,19,1763834207,0307211459,0065273941,0404651319,M1_a,M2_a
+orange,It was a juicy orange,It was a reddish orange,FALSE,Polysemy,juicy,reddish,M1_a_M2_b,N,1,0,1,9,1414213562,0273911238,0052660882,0471404521,M1_a,M2_b
+orange,It was a ripe orange,It was a bright orange,FALSE,Polysemy,ripe,bright,M1_b_M2_a,N,25,3,05,8,1603567451,0236619532,0085292876,056694671,M1_b,M2_a
+orange,It was a ripe orange,It was a reddish orange,FALSE,Polysemy,ripe,reddish,M1_b_M2_b,N,1916666667,15,0416666667,12,1621353718,0226773024,0090670049,0468044503,M1_b,M2_b
+orange,It was a juicy orange,It was a ripe orange,TRUE,Polysemy,juicy,ripe,M1_a_M1_b,N,365,4,035,20,0988086934,0083839953,0051941872,0220942955,M1_a,M1_b
+orange,It was a bright orange,It was a reddish orange,TRUE,Polysemy,bright,reddish,M2_a_M2_b,N,4,4,0,9,0,0122556508,0056215107,0,M2_a,M2_b
+page,He saw the young page,He saw the blank page,FALSE,Homonymy,young,blank,M1_a_M2_a,N,0166666667,0,0166666667,12,0389249472,0240452111,0096105754,0112366644,M1_a,M2_a
+page,He saw the young page,He saw the ripped page,FALSE,Homonymy,young,ripped,M1_a_M2_b,N,0333333333,0,0333333333,9,05,0225439787,0095548153,0166666667,M1_a,M2_b
+page,He saw the loyal page,He saw the blank page,FALSE,Homonymy,loyal,blank,M1_b_M2_a,N,0388888889,0,0388888889,18,0607684989,0239609122,0103726864,0143232725,M1_b,M2_a
+page,He saw the loyal page,He saw the ripped page,FALSE,Homonymy,loyal,ripped,M1_b_M2_b,N,0545454545,0,0545454545,11,0687551651,0221343756,012424624,0207304623,M1_b,M2_b
+page,He saw the young page,He saw the loyal page,TRUE,Homonymy,young,loyal,M1_a_M1_b,N,3071428571,4,0928571429,14,1439245834,0146082819,008013767,0384654629,M1_a,M1_b
+page,He saw the blank page,He saw the ripped page,TRUE,Homonymy,blank,ripped,M2_a_M2_b,N,3384615385,4,0615384615,13,1502135232,0077804208,0044888258,0416617354,M2_a,M2_b
+palm,It was a calloused palm,It was a tropical palm,FALSE,Homonymy,calloused,tropical,M1_a_M2_a,N,0235294118,0,0235294118,17,0664211164,0271009207,0096294343,016109487,M1_a,M2_a
+palm,It was a calloused palm,It was a tree palm,FALSE,Homonymy,calloused,tree,M1_a_M2_b,N,02,0,02,15,0560611911,0269844651,0081980586,0144749373,M1_a,M2_b
+palm,It was a wrinkled palm,It was a tropical palm,FALSE,Homonymy,wrinkled,tropical,M1_b_M2_a,N,0285714286,0,0285714286,14,1069044968,0339266062,0120958984,0285714286,M1_b,M2_a
+palm,It was a wrinkled palm,It was a tree palm,FALSE,Homonymy,wrinkled,tree,M1_b_M2_b,N,025,0,025,12,0452267017,0323847413,0089921772,0130558242,M1_b,M2_b
+palm,It was a calloused palm,It was a wrinkled palm,TRUE,Homonymy,calloused,wrinkled,M1_a_M1_b,N,3,4,1,7,1414213562,0085626662,0040128887,0534522484,M1_a,M1_b
+palm,It was a tropical palm,It was a tree palm,TRUE,Homonymy,tropical,tree,M2_a_M2_b,N,3916666667,4,0083333333,12,0288675135,0125965536,0102179348,0083333333,M2_a,M2_b
+panel,It was a control panel,It was an advisory panel,FALSE,Polysemy,control,advisory,M1_a_M2_a,N,08,1,02,10,0788810638,0337162554,0105567575,0249443826,M1_a,M2_a
+panel,It was a control panel,It was a consumer panel,FALSE,Polysemy,control,consumer,M1_a_M2_b,N,1222222222,1,0222222222,18,1165966176,0230144858,0096629083,0274820863,M1_a,M2_b
+panel,It was an instrument panel,It was an advisory panel,FALSE,Polysemy,instrument,advisory,M1_b_M2_a,N,15,15,0,4,1290994449,0372277975,0117012918,0645497224,M1_b,M2_a
+panel,It was an instrument panel,It was a consumer panel,FALSE,Polysemy,instrument,consumer,M1_b_M2_b,N,1076923077,1,0076923077,13,1255755978,0205780923,0096011698,0348284044,M1_b,M2_b
+panel,It was a control panel,It was an instrument panel,TRUE,Polysemy,control,instrument,M1_a_M1_b,N,18,2,02,20,1576137851,0077652931,0066153884,0352435138,M1_a,M1_b
+panel,It was an advisory panel,It was a consumer panel,TRUE,Polysemy,advisory,consumer,M2_a_M2_b,N,3,3,0,12,0953462589,0307659984,0109875023,0275240941,M2_a,M2_b
+passage,It was a secret passage,It was a literary passage,FALSE,Polysemy,secret,literary,M1_a_M2_a,N,01,0,01,10,0316227766,0351558268,007680124,01,M1_a,M2_a
+passage,It was a secret passage,It was a biblical passage,FALSE,Polysemy,secret,biblical,M1_a_M2_b,N,0428571429,0,0428571429,14,0513552591,0417132974,0097741723,0137252703,M1_a,M2_b
+passage,It was a narrow passage,It was a literary passage,FALSE,Polysemy,narrow,literary,M1_b_M2_a,N,0888888889,1,0111111111,9,1054092553,0418398261,00909217,0351364184,M1_b,M2_a
+passage,It was a narrow passage,It was a biblical passage,FALSE,Polysemy,narrow,biblical,M1_b_M2_b,N,0230769231,0,0230769231,13,059914469,045705986,0074587941,0166172838,M1_b,M2_b
+passage,It was a secret passage,It was a narrow passage,TRUE,Polysemy,secret,narrow,M1_a_M1_b,N,3692307692,4,0307692308,13,0630425172,0096275568,0074709654,0174848483,M1_a,M1_b
+passage,It was a literary passage,It was a biblical passage,TRUE,Polysemy,literary,biblical,M2_a_M2_b,N,3611111111,4,0388888889,18,0978527639,0191856861,0039234698,0230641176,M2_a,M2_b
+pen,She penned her animals,She penned her memoirs,FALSE,Homonymy,animals,memoirs,M1_a_M2_a,V,04,0,04,10,0516397779,0464779556,0138799191,0163299316,M1_a,M2_a
+pen,She penned her animals,She penned her thoughts,FALSE,Homonymy,animals,thoughts,M1_a_M2_b,V,0545454545,0,0545454545,11,1035725481,0322282195,0094427526,0312282982,M1_a,M2_b
+pen,She penned her livestock,She penned her memoirs,FALSE,Homonymy,livestock,memoirs,M1_b_M2_a,V,0647058824,0,0647058824,17,0996316746,0480618358,0185153425,0241642305,M1_b,M2_a
+pen,She penned her livestock,She penned her thoughts,FALSE,Homonymy,livestock,thoughts,M1_b_M2_b,V,05,0,05,12,0797724035,0354411125,0140421927,0230283093,M1_b,M2_b
+pen,She penned her animals,She penned her livestock,TRUE,Homonymy,animals,livestock,M1_a_M1_b,V,3529411765,4,0470588235,17,1067570083,0078797758,003989011,0258923777,M1_a,M1_b
+pen,She penned her memoirs,She penned her thoughts,TRUE,Homonymy,memoirs,thoughts,M2_a_M2_b,V,33,4,07,10,1159501809,0447730839,0078773856,0366666667,M2_a,M2_b
+perch,It was a tasty perch,It was a lofty perch,FALSE,Homonymy,tasty,lofty,M1_a_M2_a,N,0666666667,1,0333333333,9,0707106781,0161617517,0047499657,023570226,M1_a,M2_a
+perch,It was a tasty perch,It was a secure perch,FALSE,Homonymy,tasty,secure,M1_a_M2_b,N,06,0,06,5,0894427191,0173960328,00516572,04,M1_a,M2_b
+perch,It was a freshwater perch,It was a lofty perch,FALSE,Homonymy,freshwater,lofty,M1_b_M2_a,N,13125,1,03125,16,1447699324,0316257119,0119325459,0361924831,M1_b,M2_a
+perch,It was a freshwater perch,It was a secure perch,FALSE,Homonymy,freshwater,secure,M1_b_M2_b,N,1666666667,2,0333333333,15,1290994449,0333974421,0116146207,0333333333,M1_b,M2_b
+perch,It was a tasty perch,It was a freshwater perch,TRUE,Homonymy,tasty,freshwater,M1_a_M1_b,N,225,25,025,12,1602554779,0188228965,0107634246,0462617716,M1_a,M1_b
+perch,It was a lofty perch,It was a secure perch,TRUE,Homonymy,lofty,secure,M2_a_M2_b,N,25,3,05,20,1504379571,0115147412,0025611639,0336389499,M2_a,M2_b
+pick,He picked his coffee,He picked his scab,FALSE,Polysemy,coffee,scab,M1_a_M2_a,V,0733333333,1,0266666667,15,0798808637,015991509,0086674511,0206251503,M1_a,M2_a
+pick,He picked his coffee,He picked his nose,FALSE,Polysemy,coffee,nose,M1_a_M2_b,V,0538461538,0,0538461538,13,0877058019,0211315513,0101501822,0243252128,M1_a,M2_b
+pick,He picked his dinner,He picked his scab,FALSE,Polysemy,dinner,scab,M1_b_M2_a,V,0894736842,1,0105263158,19,087526103,0291501582,0093960941,0200798652,M1_b,M2_a
+pick,He picked his dinner,He picked his nose,FALSE,Polysemy,dinner,nose,M1_b_M2_b,V,0583333333,0,0583333333,12,1164500153,0366639793,0109284937,0336162238,M1_b,M2_b
+pick,He picked his coffee,He picked his dinner,TRUE,Polysemy,coffee,dinner,M1_a_M1_b,V,3428571429,4,0571428571,7,0786795792,0221626163,006498313,0297380857,M1_a,M1_b
+pick,He picked his scab,He picked his nose,TRUE,Polysemy,scab,nose,M2_a_M2_b,V,3636363636,4,0363636364,11,0504524979,0156949222,0058389723,0152120005,M2_a,M2_b
+pitcher,He saw the fast pitcher,He saw the glass pitcher,FALSE,Homonymy,fast,glass,M1_a_M2_a,N,0071428571,0,0071428571,14,0267261242,0448589623,0058187366,0071428571,M1_a,M2_a
+pitcher,He saw the fast pitcher,He saw the plastic pitcher,FALSE,Homonymy,fast,plastic,M1_a_M2_b,N,0307692308,0,0307692308,13,0630425172,0352484643,0079657257,0174848483,M1_a,M2_b
+pitcher,He saw the right handed pitcher,He saw the glass pitcher,FALSE,Homonymy,right handed,glass,M1_b_M2_a,N,04,0,04,15,0828078671,0560444891,0070770621,0213808994,M1_b,M2_a
+pitcher,He saw the right handed pitcher,He saw the plastic pitcher,FALSE,Homonymy,right handed,plastic,M1_b_M2_b,N,0153846154,0,0153846154,13,0375533808,0553768069,0083898902,0104154339,M1_b,M2_b
+pitcher,He saw the fast pitcher,He saw the right handed pitcher,TRUE,Homonymy,fast,right handed,M1_a_M1_b,N,3785714286,4,0214285714,14,0425815314,0514390618,0066372216,011380393,M1_a,M1_b
+pitcher,He saw the glass pitcher,He saw the plastic pitcher,TRUE,Homonymy,glass,plastic,M2_a_M2_b,N,35,4,05,8,1414213562,0054722905,0028729558,05,M2_a,M2_b
+poach,She poached the deer,She poached the eggs,FALSE,Homonymy,deer,eggs,M1_a_M2_a,V,0833333333,05,0333333333,12,0937436867,0177143097,0146079957,0270614714,M1_a,M2_a
+poach,She poached the deer,She poached the vegetables,FALSE,Homonymy,deer,vegetables,M1_a_M2_b,V,1363636364,1,0363636364,11,1433368569,020310396,0146395802,0432176885,M1_a,M2_b
+poach,She poached the bear,She poached the eggs,FALSE,Homonymy,bear,eggs,M1_b_M2_a,V,0571428571,0,0571428571,7,0786795792,0195071042,010395509,0297380857,M1_b,M2_a
+poach,She poached the bear,She poached the vegetables,FALSE,Homonymy,bear,vegetables,M1_b_M2_b,V,05,0,05,14,0940539943,0273703039,0119645,0251369873,M1_b,M2_b
+poach,She poached the deer,She poached the bear,TRUE,Homonymy,deer,bear,M1_a_M1_b,V,3842105263,4,0157894737,19,0688247202,0075741172,0030859768,0157894737,M1_a,M1_b
+poach,She poached the eggs,She poached the vegetables,TRUE,Homonymy,eggs,vegetables,M2_a_M2_b,V,3142857143,3,0142857143,14,0864437822,0094468653,0037650466,0231030726,M2_a,M2_b
+port,It was a windy port,It was a delicious port,FALSE,Homonymy,windy,delicious,M1_a_M2_a,N,02,0,02,5,0447213595,0225065172,0076441467,02,M1_a,M2_a
+port,It was a windy port,It was a sweet port,FALSE,Homonymy,windy,sweet,M1_a_M2_b,N,15,15,0,16,1264911064,0230878294,0060819387,0316227766,M1_a,M2_b
+port,It was a seaside port,It was a delicious port,FALSE,Homonymy,seaside,delicious,M1_b_M2_a,N,0538461538,0,0538461538,13,0660225292,0208070636,0083219051,0183113549,M1_b,M2_a
+port,It was a seaside port,It was a sweet port,FALSE,Homonymy,seaside,sweet,M1_b_M2_b,N,14375,15,00625,16,1209338662,0214503407,0070518613,0302334666,M1_b,M2_b
+port,It was a windy port,It was a seaside port,TRUE,Homonymy,windy,seaside,M1_a_M1_b,N,3416666667,4,0583333333,12,099620492,0160221756,0081309736,0287579589,M1_a,M1_b
+port,It was a delicious port,It was a sweet port,TRUE,Homonymy,delicious,sweet,M2_a_M2_b,N,3,3,0,15,1362770288,006746316,0034573555,0351865775,M2_a,M2_b
+position,He was in a distinguished position,He was in a fetal position,FALSE,Polysemy,distinguished,fetal,M1_a_M2_a,N,1071428571,1,0071428571,14,0997248963,0472413003,0116409481,0266525996,M1_a,M2_a
+position,He was in a distinguished position,He was in a yoga position,FALSE,Polysemy,distinguished,yoga,M1_a_M2_b,N,1,1,0,15,0845154255,0377835095,0123289764,021821789,M1_a,M2_b
+position,He was in a prominent position,He was in a fetal position,FALSE,Polysemy,prominent,fetal,M1_b_M2_a,N,0888888889,1,0111111111,9,0927960727,0421254575,0099252403,0309320242,M1_b,M2_a
+position,He was in a prominent position,He was in a yoga position,FALSE,Polysemy,prominent,yoga,M1_b_M2_b,N,0923076923,1,0076923077,13,111516355,0326377571,0100645661,030929072,M1_b,M2_b
+position,He was in a distinguished position,He was in a prominent position,TRUE,Polysemy,distinguished,prominent,M1_a_M1_b,N,3666666667,4,0333333333,12,0651338947,0094648838,0045653522,0188025358,M1_a,M1_b
+position,He was in a fetal position,He was in a yoga position,TRUE,Polysemy,fetal,yoga,M2_a_M2_b,N,35,4,05,14,1160238702,0231586754,0059286058,0310086836,M2_a,M2_b
+post,It was a wooden post,It was a teaching post,FALSE,Homonymy,wooden,teaching,M1_a_M2_a,N,1,1,0,14,1109400392,0234244347,0113972306,0296499727,M1_a,M2_a
+post,It was a wooden post,It was a challenging post,FALSE,Homonymy,wooden,challenging,M1_a_M2_b,N,0375,0,0375,16,0619139187,0320349455,0108090639,0154784797,M1_a,M2_b
+post,It was a fence post,It was a teaching post,FALSE,Homonymy,fence,teaching,M1_b_M2_a,N,0583333333,0,0583333333,12,0792961461,0295176446,0096424758,0228908257,M1_b,M2_a
+post,It was a fence post,It was a challenging post,FALSE,Homonymy,fence,challenging,M1_b_M2_b,N,1083333333,1,0083333333,12,0900336637,0404846311,0108451903,02599048,M1_b,M2_b
+post,It was a wooden post,It was a fence post,TRUE,Homonymy,wooden,fence,M1_a_M1_b,N,3833333333,4,0166666667,12,0577350269,0137798846,0066809416,0166666667,M1_a,M1_b
+post,It was a teaching post,It was a challenging post,TRUE,Homonymy,teaching,challenging,M2_a_M2_b,N,1363636364,1,0363636364,11,1120064933,0205013216,0096061766,0337712284,M2_a,M2_b
+punch,He had the alcoholic punch,He had the strongest punch,FALSE,Homonymy,alcoholic,strongest,M1_a_M2_a,N,0428571429,0,0428571429,14,1157868447,038242346,0173151553,0309453359,M1_a,M2_a
+punch,He had the alcoholic punch,He had the quickest punch,FALSE,Homonymy,alcoholic,quickest,M1_a_M2_b,N,0222222222,0,0222222222,9,0440958552,0408398867,0199571908,0146986184,M1_a,M2_b
+punch,He had the fruit punch,He had the strongest punch,FALSE,Homonymy,fruit,strongest,M1_b_M2_a,N,01,0,01,10,0316227766,0439917147,0173324049,01,M1_b,M2_a
+punch,He had the fruit punch,He had the quickest punch,FALSE,Homonymy,fruit,quickest,M1_b_M2_b,N,0142857143,0,0142857143,14,036313652,0450152278,0186375141,0097052317,M1_b,M2_b
+punch,He had the alcoholic punch,He had the fruit punch,TRUE,Homonymy,alcoholic,fruit,M1_a_M1_b,N,3833333333,4,0166666667,12,0389249472,0247438788,0060580909,0112366644,M1_a,M1_b
+punch,He had the strongest punch,He had the quickest punch,TRUE,Homonymy,strongest,quickest,M2_a_M2_b,N,3777777778,4,0222222222,18,0548318881,0060931325,0042283833,012924,M2_a,M2_b
+pupil,She had a brilliant pupil,She had a dilated pupil,FALSE,Homonymy,brilliant,dilated,M1_a_M2_a,N,0714285714,0,0714285714,14,1437335753,0324471354,0164594412,0384144138,M1_a,M2_a
+pupil,She had a brilliant pupil,She had a cloudy pupil,FALSE,Homonymy,brilliant,cloudy,M1_a_M2_b,N,025,0,025,8,046291005,0337472141,0157416463,0163663418,M1_a,M2_b
+pupil,She had an interested pupil,She had a dilated pupil,FALSE,Homonymy,interested,dilated,M1_b_M2_a,N,0071428571,0,0071428571,14,0267261242,0343187094,0158673644,0071428571,M1_b,M2_a
+pupil,She had an interested pupil,She had a cloudy pupil,FALSE,Homonymy,interested,cloudy,M1_b_M2_b,N,0153846154,0,0153846154,13,0375533808,0353193879,0220721304,0104154339,M1_b,M2_b
+pupil,She had a brilliant pupil,She had an interested pupil,TRUE,Homonymy,brilliant,interested,M1_a_M1_b,N,3692307692,4,0307692308,13,0854850414,0116787791,0080570936,0237092846,M1_a,M1_b
+pupil,She had a dilated pupil,She had a cloudy pupil,TRUE,Homonymy,dilated,cloudy,M2_a_M2_b,N,2333333333,3,0666666667,15,167616342,0115702033,0176072359,0432783534,M2_a,M2_b
+push,He pushed the cocaine,He pushed the bed,FALSE,Polysemy,cocaine,bed,M1_a_M2_a,V,22,2,02,10,1229272594,0350416481,01085428,0388730126,M1_a,M2_a
+push,He pushed the cocaine,He pushed the desk,FALSE,Polysemy,cocaine,desk,M1_a_M2_b,V,1071428571,1,0071428571,14,0916874768,03361094,0121903241,0245045089,M1_a,M2_b
+push,He pushed the drugs,He pushed the bed,FALSE,Polysemy,drugs,bed,M1_b_M2_a,V,0846153846,1,0153846154,13,0554700196,0363268316,0127490759,0153846154,M1_b,M2_a
+push,He pushed the drugs,He pushed the desk,FALSE,Polysemy,drugs,desk,M1_b_M2_b,V,0842105263,0,0842105263,19,1067872126,0401321113,013549304,0244986667,M1_b,M2_b
+push,He pushed the cocaine,He pushed the drugs,TRUE,Polysemy,cocaine,drugs,M1_a_M1_b,V,3857142857,4,0142857143,14,036313652,0217148781,005676192,0097052317,M1_a,M1_b
+push,He pushed the bed,He pushed the desk,TRUE,Polysemy,bed,desk,M2_a_M2_b,V,4,4,0,7,0,0094742,0052688241,0,M2_a,M2_b
+racket,That was a loud racket,That was a badminton racket,FALSE,Homonymy,loud,badminton,M1_a_M2_a,N,0125,0,0125,16,0341565026,0286288083,0088480949,0085391256,M1_a,M2_a
+racket,That was a loud racket,That was a tennis racket,FALSE,Homonymy,loud,tennis,M1_a_M2_b,N,0176470588,0,0176470588,17,052859414,0298933864,0102135122,012820291,M1_a,M2_b
+racket,That was an annoying racket,That was a badminton racket,FALSE,Homonymy,annoying,badminton,M1_b_M2_a,N,0166666667,0,0166666667,12,0389249472,0262139261,0062753677,0112366644,M1_b,M2_a
+racket,That was an annoying racket,That was a tennis racket,FALSE,Homonymy,annoying,tennis,M1_b_M2_b,N,0,0,0,7,0,0295964241,0070475042,0,M1_b,M2_b
+racket,That was a loud racket,That was an annoying racket,TRUE,Homonymy,loud,annoying,M1_a_M1_b,N,3384615385,4,0615384615,13,0960768923,016136986,0049786985,0266469355,M1_a,M1_b
+racket,That was a badminton racket,That was a tennis racket,TRUE,Homonymy,badminton,tennis,M2_a_M2_b,N,3666666667,4,0333333333,12,0492365964,0044394433,0016634107,0142133811,M2_a,M2_b
+rock,He liked electronic rock,He liked limestone rock,FALSE,Homonymy,electronic,limestone,M1_a_M2_a,N,0666666667,0,0666666667,12,123091491,0288080692,0106014252,0355334527,M1_a,M2_a
+rock,He liked electronic rock,He liked granite rock,FALSE,Homonymy,electronic,granite,M1_a_M2_b,N,0181818182,0,0181818182,11,0404519917,0303245485,0111593366,0121967344,M1_a,M2_b
+rock,He liked alternative rock,He liked limestone rock,FALSE,Homonymy,alternative,limestone,M1_b_M2_a,N,0357142857,0,0357142857,14,1081817762,0328184485,0106030166,0289127959,M1_b,M2_a
+rock,He liked alternative rock,He liked granite rock,FALSE,Homonymy,alternative,granite,M1_b_M2_b,N,0166666667,0,0166666667,18,0514495755,0344465852,0114727795,0121267813,M1_b,M2_b
+rock,He liked electronic rock,He liked alternative rock,TRUE,Homonymy,electronic,alternative,M1_a_M1_b,N,3727272727,4,0272727273,11,0467099366,0065356612,0052857339,0140835758,M1_a,M1_b
+rock,He liked limestone rock,He liked granite rock,TRUE,Homonymy,limestone,granite,M2_a_M2_b,N,4,4,0,11,0,0036675572,0009861112,0,M2_a,M2_b
+run,She ran the marathon,She ran the shop,FALSE,Polysemy,marathon,shop,M1_a_M2_a,V,0583333333,0,0583333333,12,0792961461,0329861701,0181533337,0228908257,M1_a,M2_a
+run,She ran the marathon,She ran the company,FALSE,Polysemy,marathon,company,M1_a_M2_b,V,0625,05,0125,8,0744023809,0332791328,0209793985,026305214,M1_a,M2_b
+run,She ran the race,She ran the shop,FALSE,Polysemy,race,shop,M1_b_M2_a,V,0545454545,0,0545454545,22,0800432783,0293900847,0240969598,0170652843,M1_b,M2_a
+run,She ran the race,She ran the company,FALSE,Polysemy,race,company,M1_b_M2_b,V,0625,05,0125,8,0744023809,0306116045,0213883042,026305214,M1_b,M2_b
+run,She ran the marathon,She ran the race,TRUE,Polysemy,marathon,race,M1_a_M1_b,V,4,4,0,17,0,0190988779,0136221111,0,M1_a,M1_b
+run,She ran the shop,She ran the company,TRUE,Polysemy,shop,company,M2_a_M2_b,V,4,4,0,10,0,0058786392,0086003184,0,M2_a,M2_b
+sage,He saw the wise sage,He saw the fragrant sage,FALSE,Homonymy,wise,fragrant,M1_a_M2_a,N,0333333333,0,0333333333,12,0492365964,0329650939,0115150928,0142133811,M1_a,M2_a
+sage,He saw the wise sage,He saw the bushy sage,FALSE,Homonymy,wise,bushy,M1_a_M2_b,N,0666666667,0,0666666667,15,1175139303,0336821139,0093836427,0303419663,M1_a,M2_b
+sage,He saw the renowned sage,He saw the fragrant sage,FALSE,Homonymy,renowned,fragrant,M1_b_M2_a,N,045,0,045,20,0686332741,0376201749,0072128057,0153468666,M1_b,M2_a
+sage,He saw the renowned sage,He saw the bushy sage,FALSE,Homonymy,renowned,bushy,M1_b_M2_b,N,0818181818,0,0818181818,11,1250454463,0394118071,0083328903,0377026206,M1_b,M2_b
+sage,He saw the wise sage,He saw the renowned sage,TRUE,Homonymy,wise,renowned,M1_a_M1_b,N,3230769231,4,0769230769,13,1300887271,0123151422,0080750287,0360801212,M1_a,M1_b
+sage,He saw the fragrant sage,He saw the bushy sage,TRUE,Homonymy,fragrant,bushy,M2_a_M2_b,N,25,3,05,6,0836660027,0041147172,0045371413,0341565026,M2_a,M2_b
+scale,It was a fish scale,It was a music scale,FALSE,Homonymy,fish,music,M1_a_M2_a,N,0133333333,0,0133333333,15,0351865775,0177956939,0097080171,0090851353,M1_a,M2_a
+scale,It was a fish scale,It was a major scale,FALSE,Homonymy,fish,major,M1_a_M2_b,N,0428571429,0,0428571429,7,0786795792,038500911,0134072304,0297380857,M1_a,M2_b
+scale,It was a lizard scale,It was a music scale,FALSE,Homonymy,lizard,music,M1_b_M2_a,N,0222222222,0,0222222222,18,0732084498,027836597,0090644598,0172553971,M1_b,M2_a
+scale,It was a lizard scale,It was a major scale,FALSE,Homonymy,lizard,major,M1_b_M2_b,N,0307692308,0,0307692308,13,0630425172,0436147988,0133900106,0174848483,M1_b,M2_b
+scale,It was a fish scale,It was a lizard scale,TRUE,Homonymy,fish,lizard,M1_a_M1_b,N,35,4,05,14,0650443636,0110029995,0043736637,0173838374,M1_a,M1_b
+scale,It was a music scale,It was a major scale,TRUE,Homonymy,music,major,M2_a_M2_b,N,25,3,05,10,1715938357,0334735692,0117534041,0542627353,M2_a,M2_b
+scene,It was a touching scene,It was a nature scene,FALSE,Polysemy,touching,nature,M1_a_M2_a,N,2611111111,3,0388888889,18,1144752164,0314999282,0075829029,0269820673,M1_a,M2_a
+scene,It was a touching scene,It was a panoramic scene,FALSE,Polysemy,touching,panoramic,M1_a_M2_b,N,2333333333,2,0333333333,9,1322875656,0218982518,005799669,0440958552,M1_a,M2_b
+scene,It was a well acted scene,It was a nature scene,FALSE,Polysemy,well acted,nature,M1_b_M2_a,N,1636363636,1,0636363636,11,1120064933,0546362102,0057291746,0337712284,M1_b,M2_a
+scene,It was a well acted scene,It was a panoramic scene,FALSE,Polysemy,well acted,panoramic,M1_b_M2_b,N,2090909091,2,0090909091,11,070064905,0569117695,0050116241,0211253637,M1_b,M2_b
+scene,It was a touching scene,It was a well acted scene,TRUE,Polysemy,touching,well acted,M1_a_M1_b,N,3857142857,4,0142857143,14,036313652,0564268559,0083350897,0097052317,M1_a,M1_b
+scene,It was a nature scene,It was a panoramic scene,TRUE,Polysemy,nature,panoramic,M2_a_M2_b,N,3714285714,4,0285714286,14,0611249846,021104008,0056977987,0163363393,M2_a,M2_b
+seal,It was a gold seal,It was a circus seal,FALSE,Homonymy,gold,circus,M1_a_M2_a,N,02,0,02,10,0421637021,0121741474,0086809099,0133333333,M1_a,M2_a
+seal,It was a gold seal,It was a trained seal,FALSE,Homonymy,gold,trained,M1_a_M2_b,N,07,0,07,10,133749351,0366402328,0091768205,0422952585,M1_a,M2_b
+seal,It was a certified seal,It was a circus seal,FALSE,Homonymy,certified,circus,M1_b_M2_a,N,0090909091,0,0090909091,22,0294244943,0218169928,0110564947,0062733233,M1_b,M2_a
+seal,It was a certified seal,It was a trained seal,FALSE,Homonymy,certified,trained,M1_b_M2_b,N,08,0,08,10,1229272594,0192974329,006107676,0388730126,M1_b,M2_b
+seal,It was a gold seal,It was a certified seal,TRUE,Homonymy,gold,certified,M1_a_M1_b,N,3411764706,3,0411764706,17,0618346942,0262364924,0094911754,0149971162,M1_a,M1_b
+seal,It was a circus seal,It was a trained seal,TRUE,Homonymy,circus,trained,M2_a_M2_b,N,3625,4,0375,8,1060660172,0280324876,0081836522,0375,M2_a,M2_b
+serve,She served a pie,She served a summons,FALSE,Polysemy,pie,summons,M1_a_M2_a,V,1777777778,2,0222222222,9,156347192,0378617704,0183701873,0521157307,M1_a,M2_a
+serve,She served a pie,She served a warrant,FALSE,Polysemy,pie,warrant,M1_a_M2_b,V,1,1,0,15,09258201,0549064308,0169079483,0239045722,M1_a,M2_b
+serve,She served a lasagna,She served a summons,FALSE,Polysemy,lasagna,summons,M1_b_M2_a,V,14375,1,04375,16,1263262971,0403398216,0215635061,0315815743,M1_b,M2_a
+serve,She served a lasagna,She served a warrant,FALSE,Polysemy,lasagna,warrant,M1_b_M2_b,V,1714285714,2,0285714286,7,1496026483,0531154156,0204917371,0565444861,M1_b,M2_b
+serve,She served a pie,She served a lasagna,TRUE,Polysemy,pie,lasagna,M1_a_M1_b,V,4,4,0,16,0,014031893,0055636346,0,M1_a,M1_b
+serve,She served a summons,She served a warrant,TRUE,Polysemy,summons,warrant,M2_a_M2_b,V,2928571429,35,0571428571,14,1268814451,0342206717,0056954086,0339104926,M2_a,M2_b
+sing,The girl sang,The bird sang,FALSE,Polysemy,girl,bird,M1_a_M2_a,V,3705882353,4,0294117647,17,0469668218,0233257055,007061404,0113911275,M1_a,M2_a
+sing,The girl sang,The cricket sang,FALSE,Polysemy,girl,cricket,M1_a_M2_b,V,2916666667,3,0083333333,12,099620492,0283290148,0129253685,0287579589,M1_a,M2_b
+sing,The choir sang,The bird sang,FALSE,Polysemy,choir,bird,M1_b_M2_a,V,3444444444,4,0555555556,9,0881917104,0232686758,0081282616,0293972368,M1_b,M2_a
+sing,The choir sang,The cricket sang,FALSE,Polysemy,choir,cricket,M1_b_M2_b,V,2875,3,0125,16,1147460965,0171961606,0138810694,0286865241,M1_b,M2_b
+sing,The girl sang,The choir sang,TRUE,Polysemy,girl,choir,M1_a_M1_b,V,4,4,0,14,0,0205823958,0064520538,0,M1_a,M1_b
+sing,The bird sang,The cricket sang,TRUE,Polysemy,bird,cricket,M2_a_M2_b,V,3777777778,4,0222222222,9,0440958552,0185122371,0078307152,0146986184,M2_a,M2_b
+spill,He spilled the drink,He spilled the news,FALSE,Polysemy,drink,news,M1_a_M2_a,V,1111111111,1,0111111111,9,1166666667,0328452051,0127788305,0388888889,M1_a,M2_a
+spill,He spilled the drink,He spilled the secret,FALSE,Polysemy,drink,secret,M1_a_M2_b,V,1631578947,2,0368421053,19,1011628298,0367769063,0098430336,0232083448,M1_a,M2_b
+spill,He spilled the flour,He spilled the news,FALSE,Polysemy,flour,news,M1_b_M2_a,V,13125,15,01875,16,1302241657,032275182,0162538171,0325560414,M1_b,M2_a
+spill,He spilled the flour,He spilled the secret,FALSE,Polysemy,flour,secret,M1_b_M2_b,V,1307692308,1,0307692308,13,1182131929,0395465255,0135237396,0327864406,M1_b,M2_b
+spill,He spilled the drink,He spilled the flour,TRUE,Polysemy,drink,flour,M1_a_M1_b,V,3545454545,4,0454545455,11,1213559752,0165787518,0089100361,0365902033,M1_a,M1_b
+spill,He spilled the news,He spilled the secret,TRUE,Polysemy,news,secret,M2_a_M2_b,V,3888888889,4,0111111111,9,0333333333,0100264668,0090865076,0111111111,M2_a,M2_b
+stake,He staked his horse,He staked his name,FALSE,Polysemy,horse,name,M1_a_M2_a,V,0666666667,1,0333333333,15,0816496581,028088522,0128690422,0210818511,M1_a,M2_a
+stake,He staked his horse,He staked his claim,FALSE,Polysemy,horse,claim,M1_a_M2_b,V,1357142857,15,0142857143,14,1277445941,0294953108,0117528498,0341411789,M1_a,M2_b
+stake,He staked his tent,He staked his name,FALSE,Polysemy,tent,name,M1_b_M2_a,V,0777777778,1,0222222222,9,0666666667,0254777133,0099855304,0222222222,M1_b,M2_a
+stake,He staked his tent,He staked his claim,FALSE,Polysemy,tent,claim,M1_b_M2_b,V,0733333333,0,0733333333,15,0883715102,031125623,009199506,0228174258,M1_b,M2_b
+stake,He staked his horse,He staked his tent,TRUE,Polysemy,horse,tent,M1_a_M1_b,V,2461538462,3,0538461538,13,1330124344,012285012,006813097,0368910117,M1_a,M1_b
+stake,He staked his name,He staked his claim,TRUE,Polysemy,name,claim,M2_a_M2_b,V,2181818182,2,0181818182,11,1167748416,0191575289,0075505853,0352089395,M2_a,M2_b
+stall,They stalled the truck,They stalled the horse,FALSE,Polysemy,truck,horse,M1_a_M2_a,V,20625,2,00625,16,1289379696,0160481989,0079759598,0322344924,M1_a,M2_a
+stall,They stalled the truck,They stalled the pig,FALSE,Polysemy,truck,pig,M1_a_M2_b,V,09,1,01,10,0875595036,0231238067,008733356,0276887462,M1_a,M2_b
+stall,They stalled the bus,They stalled the horse,FALSE,Polysemy,bus,horse,M1_b_M2_a,V,1818181818,2,0181818182,11,107871978,0138819456,010032022,0325246251,M1_b,M2_a
+stall,They stalled the bus,They stalled the pig,FALSE,Polysemy,bus,pig,M1_b_M2_b,V,0846153846,1,0153846154,13,1068188018,0183550537,0112087369,0296262051,M1_b,M2_b
+stall,They stalled the truck,They stalled the bus,TRUE,Polysemy,truck,bus,M1_a_M1_b,V,32,4,08,10,1398411798,0068428814,0032469273,0442216639,M1_a,M1_b
+stall,They stalled the horse,They stalled the pig,TRUE,Polysemy,horse,pig,M2_a_M2_b,V,3176470588,4,0823529412,17,1550616576,0178040326,0057151437,037607976,M2_a,M2_b
+stay,They stayed wet,They stayed nearby,FALSE,Polysemy,wet,nearby,M1_a_M2_a,V,2428571429,2,0428571429,14,1089409559,0298734605,0206627786,0291156952,M1_a,M2_a
+stay,They stayed wet,They stayed overnight,FALSE,Polysemy,wet,overnight,M1_a_M2_b,V,2066666667,2,0066666667,15,1222799287,0343555748,0149693429,0315725418,M1_a,M2_b
+stay,They stayed cold,They stayed nearby,FALSE,Polysemy,cold,nearby,M1_b_M2_a,V,2923076923,3,0076923077,13,0862316499,0265157819,0193538725,0239163565,M1_b,M2_a
+stay,They stayed cold,They stayed overnight,FALSE,Polysemy,cold,overnight,M1_b_M2_b,V,2,2,0,12,159544807,0338838518,0131733358,0460566186,M1_b,M2_b
+stay,They stayed wet,They stayed cold,TRUE,Polysemy,wet,cold,M1_a_M1_b,V,3857142857,4,0142857143,14,036313652,0080325246,0049073398,0097052317,M1_a,M1_b
+stay,They stayed nearby,They stayed overnight,TRUE,Polysemy,nearby,overnight,M2_a_M2_b,V,3555555556,4,0444444444,9,0726483157,0248371005,0081363201,0242161052,M2_a,M2_b
+tap,He tapped the keg,He tapped the stick,FALSE,Homonymy,keg,stick,M1_a_M2_a,V,125,05,075,12,1602554779,0064929307,0059841752,0462617716,M1_a,M2_a
+tap,He tapped the keg,He tapped the drums,FALSE,Homonymy,keg,drums,M1_a_M2_b,V,13125,1,03125,16,1400892573,0108148277,0119889259,0350223143,M1_a,M2_b
+tap,He tapped the beer,He tapped the stick,FALSE,Homonymy,beer,stick,M1_b_M2_a,V,1421052632,1,0421052632,19,1169795304,0134595156,007687825,0268369448,M1_b,M2_a
+tap,He tapped the beer,He tapped the drums,FALSE,Homonymy,beer,drums,M1_b_M2_b,V,1714285714,1,0714285714,7,1704336206,015184027,0124992728,0644178536,M1_b,M2_b
+tap,He tapped the keg,He tapped the beer,TRUE,Homonymy,keg,beer,M1_a_M1_b,V,25,3,05,16,1549193338,0097269237,0046793878,0387298335,M1_a,M1_b
+tap,He tapped the stick,He tapped the drums,TRUE,Homonymy,stick,drums,M2_a_M2_b,V,3,3,0,7,1,0097163141,0124092579,0377964473,M2_a,M2_b
+tape,He used the scotch tape,He used the interview tape,FALSE,Polysemy,scotch,interview,M1_a_M2_a,N,04,0,04,15,0632455532,0198552668,0066827834,0163299316,M1_a,M2_a
+tape,He used the scotch tape,He used the video tape,FALSE,Polysemy,scotch,video,M1_a_M2_b,N,1090909091,0,1090909091,11,1445997611,0173618793,0050383449,0435984684,M1_a,M2_b
+tape,He used the double sided tape,He used the interview tape,FALSE,Polysemy,double sided,interview,M1_b_M2_a,N,0533333333,0,0533333333,15,1060098827,0485456288,0132503986,027371634,M1_b,M2_a
+tape,He used the double sided tape,He used the video tape,FALSE,Polysemy,double sided,video,M1_b_M2_b,N,0571428571,0,0571428571,14,0937614462,0510699838,0092749536,0250588006,M1_b,M2_b
+tape,He used the scotch tape,He used the double sided tape,TRUE,Polysemy,scotch,double sided,M1_a_M1_b,N,4,4,0,13,0,0505158365,0088222742,0,M1_a,M1_b
+tape,He used the interview tape,He used the video tape,TRUE,Polysemy,interview,video,M2_a_M2_b,N,3444444444,4,0555555556,9,0881917104,0063471198,0039654732,0293972368,M2_a,M2_b
+term,It was a winter term,It was a legal term,FALSE,Polysemy,winter,legal,M1_a_M2_a,N,08,1,02,15,1082325539,0377250016,0096574903,0279455252,M1_a,M2_a
+term,It was a winter term,It was a technical term,FALSE,Polysemy,winter,technical,M1_a_M2_b,N,12,1,02,15,1207121724,0417370081,0087095797,0311677489,M1_a,M2_b
+term,It was a fall term,It was a legal term,FALSE,Polysemy,fall,legal,M1_b_M2_a,N,0882352941,0,0882352941,17,1268973647,025068289,0109428346,0307771317,M1_b,M2_a
+term,It was a fall term,It was a technical term,FALSE,Polysemy,fall,technical,M1_b_M2_b,N,0545454545,0,0545454545,11,0934198733,0273746848,0098052561,0281671516,M1_b,M2_b
+term,It was a winter term,It was a fall term,TRUE,Polysemy,winter,fall,M1_a_M1_b,N,3916666667,4,0083333333,12,0288675135,0172729552,0077611864,0083333333,M1_a,M1_b
+term,It was a legal term,It was a technical term,TRUE,Polysemy,legal,technical,M2_a_M2_b,N,3428571429,4,0571428571,7,0786795792,0086290538,0052590013,0297380857,M2_a,M2_b
+tick,It was a clock tick,It was a parasitic tick,FALSE,Homonymy,clock,parasitic,M1_a_M2_a,N,0125,0,0125,16,0341565026,0401510119,0182157278,0085391256,M1_a,M2_a
+tick,It was a clock tick,It was a diseased tick,FALSE,Homonymy,clock,diseased,M1_a_M2_b,N,0166666667,0,0166666667,12,0389249472,0419999659,0182493091,0112366644,M1_a,M2_b
+tick,It was an audible tick,It was a parasitic tick,FALSE,Homonymy,audible,parasitic,M1_b_M2_a,N,0555555556,0,0555555556,9,1130388331,0367533743,0118630707,037679611,M1_b,M2_a
+tick,It was an audible tick,It was a diseased tick,FALSE,Homonymy,audible,diseased,M1_b_M2_b,N,0,0,0,10,0,0400648236,0146961331,0,M1_b,M2_b
+tick,It was a clock tick,It was an audible tick,TRUE,Homonymy,clock,audible,M1_a_M1_b,N,2555555556,25,0055555556,18,1247219129,0227330804,0133767307,0293972368,M1_a,M1_b
+tick,It was a parasitic tick,It was a diseased tick,TRUE,Homonymy,parasitic,diseased,M2_a_M2_b,N,375,4,025,12,0452267017,0064808846,0040089488,0130558242,M2_a,M2_b
+tip,It was a generous tip,It was a pencil tip,FALSE,Homonymy,generous,pencil,M1_a_M2_a,N,0125,0,0125,8,0353553391,0387852728,0079369009,0125,M1_a,M2_a
+tip,It was a generous tip,It was a finger tip,FALSE,Homonymy,generous,finger,M1_a_M2_b,N,01,0,01,10,0316227766,0304480195,0091443419,01,M1_a,M2_b
+tip,It was a stingy tip,It was a pencil tip,FALSE,Homonymy,stingy,pencil,M1_b_M2_a,N,0666666667,0,0666666667,9,0866025404,0293498874,0077552915,0288675135,M1_b,M2_a
+tip,It was a stingy tip,It was a finger tip,FALSE,Homonymy,stingy,finger,M1_b_M2_b,N,0294117647,0,0294117647,17,0587867532,0243239701,0091838002,0142578819,M1_b,M2_b
+tip,It was a generous tip,It was a stingy tip,TRUE,Homonymy,generous,stingy,M1_a_M1_b,N,3933333333,4,0066666667,15,025819889,0260650516,0030067265,0066666667,M1_a,M1_b
+tip,It was a pencil tip,It was a finger tip,TRUE,Homonymy,pencil,finger,M2_a_M2_b,N,2555555556,3,0444444444,18,1423426777,0144928873,004379636,0335504909,M2_a,M2_b
+title,She liked the essay title,She liked the academic title,FALSE,Polysemy,essay,academic,M1_a_M2_a,N,1571428571,1,0571428571,14,1696797242,0239683568,0054930091,0453488138,M1_a,M2_a
+title,She liked the essay title,She liked the professional title,FALSE,Polysemy,essay,professional,M1_a_M2_b,N,18125,2,01875,16,1327591805,0341364086,0112736285,0331897951,M1_a,M2_b
+title,She liked the poem title,She liked the academic title,FALSE,Polysemy,poem,academic,M1_b_M2_a,N,3142857143,3,0142857143,7,1069044968,0325790405,0067600965,0404061018,M1_b,M2_a
+title,She liked the poem title,She liked the professional title,FALSE,Polysemy,poem,professional,M1_b_M2_b,N,2076923077,2,0076923077,13,1255755978,0391970217,0119180441,0348284044,M1_b,M2_b
+title,She liked the essay title,She liked the poem title,TRUE,Polysemy,essay,poem,M1_a_M1_b,N,4,4,0,17,0,0129740179,0019377232,0,M1_a,M1_b
+title,She liked the academic title,She liked the professional title,TRUE,Polysemy,academic,professional,M2_a_M2_b,N,38,4,02,10,0421637021,0093400538,0063942671,0133333333,M2_a,M2_b
+toast,They toasted the bread,They toasted the host,FALSE,Homonymy,bread,host,M1_a_M2_a,V,0166666667,0,0166666667,12,0389249472,0222294986,0130103528,0112366644,M1_a,M2_a
+toast,They toasted the bread,They toasted the bride,FALSE,Homonymy,bread,bride,M1_a_M2_b,V,0285714286,0,0285714286,14,0468807231,0241852403,0182386577,0125294003,M1_a,M2_b
+toast,They toasted the strudel,They toasted the host,FALSE,Homonymy,strudel,host,M1_b_M2_a,V,0461538462,0,0461538462,13,1126601424,0140097976,0132887423,0312463016,M1_b,M2_a
+toast,They toasted the strudel,They toasted the bride,FALSE,Homonymy,strudel,bride,M1_b_M2_b,V,01,0,01,10,0316227766,0180000246,0165035546,01,M1_b,M2_b
+toast,They toasted the bread,They toasted the strudel,TRUE,Homonymy,bread,strudel,M1_a_M1_b,V,3583333333,4,0416666667,12,1164500153,0095331252,0067792237,0336162238,M1_a,M1_b
+toast,They toasted the host,They toasted the bride,TRUE,Homonymy,host,bride,M2_a_M2_b,V,35625,4,04375,16,1209338662,0107216835,0095477164,0302334666,M2_a,M2_b
+toll,It was a costly toll,It was a loud toll,FALSE,Homonymy,costly,loud,M1_a_M2_a,N,1777777778,1,0777777778,9,1394433378,0287602782,0064157188,0464811126,M1_a,M2_a
+toll,It was a costly toll,It was a bell toll,FALSE,Homonymy,costly,bell,M1_a_M2_b,N,0857142857,0,0857142857,14,1231455852,0376441181,0106635153,032912042,M1_a,M2_b
+toll,It was a road toll,It was a loud toll,FALSE,Homonymy,road,loud,M1_b_M2_a,N,0357142857,0,0357142857,14,0497245158,0309844851,0092908859,0132894358,M1_b,M2_a
+toll,It was a road toll,It was a bell toll,FALSE,Homonymy,road,bell,M1_b_M2_b,N,0636363636,0,0636363636,11,0809039835,0347767413,0077217638,0243934688,M1_b,M2_b
+toll,It was a costly toll,It was a road toll,TRUE,Homonymy,costly,road,M1_a_M1_b,N,2266666667,2,0266666667,15,1437590577,0204722881,00966627,0371184291,M1_a,M1_b
+toll,It was a loud toll,It was a bell toll,TRUE,Homonymy,loud,bell,M2_a_M2_b,N,2357142857,25,0142857143,14,1598419549,0216206491,0069992304,0427195594,M2_a,M2_b
+track,She saw the train tracks,She saw the moose tracks,FALSE,Polysemy,train,moose,M1_a_M2_a,N,2076923077,2,0076923077,13,1037749043,0211046398,005438292,0287819799,M1_a,M2_a
+track,She saw the train tracks,She saw the snowshoe tracks,FALSE,Polysemy,train,snowshoe,M1_a_M2_b,N,275,3,025,12,1138180366,0286395967,003734684,032856437,M1_a,M2_b
+track,She saw the trolley tracks,She saw the moose tracks,FALSE,Polysemy,trolley,moose,M1_b_M2_a,N,1666666667,2,0333333333,12,123091491,0148312688,0047146738,0355334527,M1_b,M2_a
+track,She saw the trolley tracks,She saw the snowshoe tracks,FALSE,Polysemy,trolley,snowshoe,M1_b_M2_b,N,2384615385,2,0384615385,13,1609268029,0212822378,0034026444,0446330646,M1_b,M2_b
+track,She saw the train tracks,She saw the trolley tracks,TRUE,Polysemy,train,trolley,M1_a_M1_b,N,3333333333,4,0666666667,18,1283377896,0059133589,0011585116,0302495071,M1_a,M1_b
+track,She saw the moose tracks,She saw the snowshoe tracks,TRUE,Polysemy,moose,snowshoe,M2_a_M2_b,N,3777777778,4,0222222222,9,0440958552,0091531277,0022711694,0146986184,M2_a,M2_b
+yard,It was five yards,They were big yards,FALSE,Homonymy,five,big,M1_a_M2_a,N,075,05,025,12,0866025404,0315510988,0118784904,025,M1_a,M2_a
+yard,It was five yards,They were cluttered yards,FALSE,Homonymy,five,cluttered,M1_a_M2_b,N,0555555556,0,0555555556,18,0783823376,0391850471,0160174072,0184748942,M1_a,M2_b
+yard,It was ten yards,They were big yards,FALSE,Homonymy,ten,big,M1_b_M2_a,N,12,1,02,15,1264911064,0311127782,0107001245,0326598632,M1_b,M2_a
+yard,It was ten yards,They were cluttered yards,FALSE,Homonymy,ten,cluttered,M1_b_M2_b,N,0416666667,0,0416666667,12,0900336637,0387729406,0144338369,02599048,M1_b,M2_b
+yard,It was five yards,It was ten yards,TRUE,Homonymy,five,ten,M1_a_M1_b,N,4,4,0,7,0,0009858191,0005891144,0,M1_a,M1_b
+yard,They were big yards,They were cluttered yards,TRUE,Homonymy,big,cluttered,M2_a_M2_b,N,3230769231,4,0769230769,13,148064435,0162642956,0064733982,0410656856,M2_a,M2_b
